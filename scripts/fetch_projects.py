@@ -161,7 +161,7 @@ print("LOG: Saved to", file_path)
 print("No of members", SVG_NO_OF_MEMBERS)
 print("No of repos", SVG_NO_OF_REPOS)
 network_svg = open("static/assets/network_raw.svg").read()
-network_svg = network_svg.replace("{$members}", str(SVG_NO_OF_MEMBERS))
+# network_svg = network_svg.replace("{$members}", str(SVG_NO_OF_MEMBERS))
 network_svg = network_svg.replace("{$Repos}", str(SVG_NO_OF_REPOS))
 with open("static/assets/network.svg", "w+") as f:
     f.write(network_svg)
