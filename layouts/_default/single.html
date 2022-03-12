@@ -1,0 +1,11 @@
+{{ define "header" }}
+
+<h1 class="large-title">{{ .Params.title }} </h1>
+
+{{ end }}
+
+{{ define "content" }}
+  <div class="container">
+    {{ .Content }}
+  </div>
+{{ end }}

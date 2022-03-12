@@ -1,0 +1,53 @@
+{
+  "Westley-Winks/oregon-food-insecurity": {
+    "descriptionHTML": "<div>An analysis of food insecurity in Oregon in 2020 | WORK IN PROGRESS</div>",
+    "forkCount": 0,
+    "homepageUrl": "https://westley-winks.github.io/oregon-food-insecurity/",
+    "isPrivate": false,
+    "languages": "HTML",
+    "name": "oregon-food-insecurity",
+    "nameWithOwner": "Westley-Winks/oregon-food-insecurity",
+    "primaryLanguage": {
+      "color": "#e34c26",
+      "name": "HTML"
+    },
+    "pushedAt": "2021-12-01T01:23:15Z",
+    "repositoryTopics": "",
+    "stargazers": 0,
+    "watchers": 1
+  },
+  "Westley-Winks/solar-output": {
+    "descriptionHTML": "<div>Predicting actual solar panel energy output using machine learning.</div>",
+    "forkCount": 0,
+    "homepageUrl": "https://share.streamlit.io/westley-winks/solar-output/main",
+    "isPrivate": false,
+    "languages": "Jupyter Notebook",
+    "name": "solar-output",
+    "nameWithOwner": "Westley-Winks/solar-output",
+    "primaryLanguage": {
+      "color": "#DA5B0B",
+      "name": "Jupyter Notebook"
+    },
+    "pushedAt": "2022-01-24T18:36:43Z",
+    "repositoryTopics": "",
+    "stargazers": 0,
+    "watchers": 1
+  },
+  "Westley-Winks/tactile-paving-detector": {
+    "descriptionHTML": "<div>Detects tactile paving in images using deep learning</div>",
+    "forkCount": 1,
+    "homepageUrl": "",
+    "isPrivate": false,
+    "languages": "Jupyter Notebook",
+    "name": "tactile-paving-detector",
+    "nameWithOwner": "Westley-Winks/tactile-paving-detector",
+    "primaryLanguage": {
+      "color": "#DA5B0B",
+      "name": "Jupyter Notebook"
+    },
+    "pushedAt": "2022-03-09T01:28:37Z",
+    "repositoryTopics": "deep-learning object-detection computer-vision",
+    "stargazers": 0,
+    "watchers": 1
+  }
+}

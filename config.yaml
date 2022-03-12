@@ -1,0 +1,36 @@
+baseURL: https://westleywinks.com/
+languageCode: en-us
+title: Westley Winks
+
+# disable taxonomy pages
+taxonomies: []
+
+permalinks:
+  posts: /:year/:month/:title/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+  highlight:
+    style: friendly
+
+menu:
+  main:
+  # individual pages are added to menu in their front matter
+  - identifier: linkedin
+    name: LinkedIn
+    url: https://www.linkedin.com/in/westley-winks
+    rel: noopener
+    weight: 20
+  - identifier: github
+    name: GitHub
+    url: https://github.com/Westley-Winks
+    weight: 10
+  - identifier: twitch
+    name: Twitch
+    url: https://twitch.tv/dadofapollo
+    weight: 30

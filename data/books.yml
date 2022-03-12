@@ -1,0 +1,178 @@
+- id: because-internet
+  name: "Because Internet: Understanding the New Rules of Language"
+  description: Language (more specifically, how we communicate) is a living and breathing thing that changes with time. That next phase for human communication is through the internet. On the internet, we don't have the luxury of using rising intonation or facial expressions to convey meaning but people come up with creative ways to convey the same information. We build new characters, emojis, and memes all to better understand and love one another.
+  logo: /assets/books/because-internet.webp
+  website: https://gretchenmcculloch.com/book/
+  author: "Gretchen McCulloch"
+  twitter: GretchenAMcC
+
+- id: naked-statistics
+  name: "Naked Statistics: Stripping the Dread from Data"
+  description: Wheelan makes statistics fun and applicable through real examples. It really helped me reinforce the idea of thinking probabilistically and goes hand in hand with the thoughts in "Drunkard's Walk" by Leonard Mlodinow. Is it people's choices that determine their outcome or are they the 5% that isn't accounted for in a 95% confidence interval?
+  logo: /assets/books/naked-statistics.jpg
+  website: https://www.charleswheelan.com/books.html#statistics
+  author: "Charles Wheelan"
+  twitter: CharlesWheelan
+
+- id: deep-work
+  name: Deep Work
+  description: For those in the field of knowledge work, the ability to truly focus and get into a flow state with their work is becoming more rare while at the same time becoming more valuable. The people who can master this skill can use it to get more meaningful work done and learn difficult things quickly to excel in their careers and life.
+  logo: /assets/books/deep-work.jpg
+  website: https://www.calnewport.com/books/deep-work/
+  author: Cal Newport
+  twitter:
+
+- id: breath
+  name: "Breath: The New Science of a Lost Art"
+  logo: /assets/books/breath.jpg
+  website: https://www.mrjamesnestor.com/breath-book
+  author: James Nestor
+  twitter: MrJamesNestor
+  description: An interesting read about something we all do naturally but haven't actually had anyone teach us. Many major religions and cultures throughout time have stumbled upon the fact that breathing is important and can help tune us into the world. Breathe better to live better.
+
+- id: atomic-habits
+  name: Atomic Habits
+  logo: /assets/books/atomic-habits.png
+  website: https://jamesclear.com/atomic-habits
+  author: James Clear
+  twitter: JamesClear
+  description: A classic in the productivity/self help space. Atomic Habits gives clear and actionable things we can do to develop better habits and remove unwanted ones. *Almost* over-hyped but there are still some very powerful skills throughout the book.
+
+- id: looking-for-alaska
+  name: Looking for Alaska
+  logo: /assets/books/looking-for-alaska.jpeg
+  website: https://www.johngreenbooks.com/looking-for-alaska
+  author: "John Green"
+  twitter: johngreen
+  description:
+
+- id: the-anthropocene-reviewed
+  name: The Anthropocene Reviewed
+  logo: /assets/books/the-anthropocene-reviewed.webp
+  website: https://anthropocenereviewedbook.com/
+  author: John Green
+  twitter: johngreen
+  description: Lots of fun facts and factoids, all broken into fun bite-sized chapters. Almost as good as the podcast but Green's voice and long pauses add a lot of emotion and human touch to the stories. This book weaves between fascinating, moving, awe-inspiring, saddening all within pages from one another. And at the end, you get plenty of trivia for your next Jeopardy! event or party...if your friends are into that kind of thing.
+
+- id: the-index-card
+  name: "The Index Card: Why Personal Finance Doesn't Have To Be Complicated"
+  logo: /assets/books/the-index-card.png
+  website: http://helaineolen.com/books/the-index-card/
+  author: Helaine Olen & Harold Pollack
+  # twitter: helaineolen
+  twitter: haroldpollack
+  description: The easiest way to handle personal finances. Are you going to become rich by reading this book? No. But you will learn easy ways to increase your financial security in both the short and the long term.
+
+- id: blink
+  name: Blink
+  logo: /assets/books/blink.webp
+  website: https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/
+  author: Malcolm Gladwell
+  twitter: Gladwell
+  description:
+
+
+- id: monster-calls
+  name: A Monster Calls
+  logo: /assets/books/a-monster-calls.jpg
+  website: https://patrickness.com/book/a-monster-calls/
+  author: Patrick Ness
+  twitter: patrick_ness
+  description: Absolutely fantastic. Not many things in the world make me cry, but when I was bawling when I reached the end of this one. Lots of deeper meaning intertwined within the stories and experiences of the main character.
+
+- id: why-we-sleep
+  name: "Why We Sleep: Unlocking the Power of Sleep and Dreams"
+  logo: /assets/books/why-we-sleep.webp
+  website: https://www.sleepdiplomat.com/author
+  author: Matthew Walker
+  twitter: sleepdiplomat
+  description: Much like "Breath" by James Nestor, sleeping is something we all need to do but nobody has taught us the importance or how to sleep. Sleeping keeps us alive and allows us to learn, remember, and be creative. It is one of the most important activities we do and yet it feels like a burden or a waste of time. Walker describes this importance as well as actionable tips on how to sleep better.
+
+- id: algorithms-to-live-by
+  name: "Algorithms to Live By: The Computer Science of Human Decisions"
+  logo: /assets/books/algorithms-to-live-by.png
+  website: https://algorithmstoliveby.com/
+  author: Brian Christian & Tom Griffiths
+  twitter: brianchristian
+  description: Looking at normal everyday decisions through a computer science lens. What is the best way to reorganize your bookshelf? Should you park your car here or loop around again to try to find a closer space? Algorithmic thinking (the kind computers do) can help us solve problems like these.
+
+- id: chasing-chaos
+  name: "Chasing Chaos: My Decade In and Out of Humanitarian Aid"
+  logo: /assets/books/chasing-chaos.jpeg
+  website: https://www.jessicabalexander.com/book
+  author: Jessica Alexander
+  twitter:
+  description: Real experiences of a humanitarian professional. This book is a simple biography that takes you through Alexander's choices and experiences that led her into the humanitarian field and how she excelled in it.
+
+- id: educated
+  name: "Educated: A Memoir"
+  logo: /assets/books/educated.jpg
+  website: https://tarawestover.com/book
+  author: Tara Westover
+  twitter: tarawestover
+  description:
+
+- id: every-tools-a-hammer
+  name: "Every Tool's a Hammer: Life Is What You Make It"
+  logo: /assets/books/every-tools-a-hammer.jpg
+  website: https://adamsavage.com/
+  author: Adam Savage
+  twitter: donttrythis
+  description:
+
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
+# - id:
+#   name:
+#   logo: /assets/books/
+#   website:
+#   author:
+#   twitter:
+#   description:
