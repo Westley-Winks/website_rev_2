@@ -6,5 +6,139 @@
 {{ end }}
 
 {{ define "content" }}
-  {{ .Content }}
+
+<!-- About Me -->
+
+<div class="section grey" id="philosophy">
+    <div class="container">
+        <div id="philosophy-text">
+            <h1 class="small-title center-text mega-margin">About Me</h1>
+            <p class="center-text mega-margin">For anything to grow, you need three things:</p>
+        </div>
+    </div>
+    <div class="small-container" id="emoji-cards">
+        <div class="emoji-card">
+            <img src="assets/fire.svg" alt="Fire emoji" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Heat</h1>
+            <p class="center-text">Heat means work.<br/>Upstream contributions, bug fixes, designs, docs--the rigorous work that drives the community.</p>
+        </div>
+
+        <div class="emoji-card">
+            <img src="assets/me.jpeg" alt="Picture of me" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Light</h1>
+            <p class="center-text">Light means visibility. <br/>For the projects, contributions, opportunities, challenges, and people that impact the community.</p>
+        </div>
+
+        <div class="emoji-card">
+            <img src="assets/heart.svg" alt="Pride heart emoji" class="emoji-img center-margin large-margin">
+            <h1 class="center-text medium-margin">Love</h1>
+            <p class="center-text">Love means culture and support.<br/>Why we care. How we work. Actions that grow the community.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Explore Projects -->
+
+<div class="section" id="explore-projects">
+    <div class="container">
+        <div class="explore-text">
+            <h1 class="small-title mega-margin">Explore Projects</h1>
+            <p class="mega-margin">In my free time, I build fun software and data products and open-source them on GitHub.</p>
+            <a href="/projects/" class="Button Button--primary Button--large">View All Projects</a>
+        </div>
+    </div>
+</div>
+
+<!-- Education -->
+
+<div class="grey section" id="follow-us">
+    <div class="container">
+        <div class="center-text" id="open-source-text">
+          <h1 class="small-title mega-margin open-source-title">Education
+          </h1>
+          <img src="assets/education.svg" class="emoji-img center-margin large-margin">
+            <!-- <p class="mega-margin">Formal education and online certifications.</p> -->
+        </div>
+
+        <div class="timeline-cell">
+            {{ range $.Site.Data.education }}
+            <div class="sizeFull membership" id="{{ .id }}">
+                <!-- Logo -->
+                <img src="{{ .logo }}" class="membership-logo">
+
+                <div class="name-handle">
+                    <!-- Name -->
+                    <h2>{{ .name }}</h2>
+
+                    <h4 class="author-handle">
+                        {{ .author }}
+                    </h4>
+                    <!-- Date handle -->
+                    {{ with .date }}
+                    <p target="_blank" rel="noopener" class="membership-handle">
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </div>
+
+                <!-- Description -->
+                <p class="book-description">{{ .description }}</p>
+
+                <!-- Visit website -->
+                {{ with .website }}
+                    <a href="{{ . }}" class="Button">More Info</a>
+                {{ end }}
+
+            </div>
+            {{ end }}
+    </div>
+  </div>
+</div>
+
+<!-- Experience -->
+
+<div class="section" id="career">
+    <div class="container">
+        <div id="open-source-text" class="same-mega-margin center-text">
+            <h1 class="small-title mega-margin career-title">Experience</h1>
+            <img src="assets/fire.svg" class="emoji-img center-margin large-margin">
+            <!-- <p class="mega-margin">Words about experience</p> -->
+        </div>
+
+        <div class="timeline-cell">
+          {{ range $.Site.Data.experience }}
+          <div class="sizeFull membership" id="{{ .id }}">
+              <!-- Logo -->
+              <img src="{{ .logo }}" class="membership-logo">
+
+              <div class="name-handle">
+                  <!-- Name -->
+                  <h2>{{ .name }}</h2>
+
+                  <h4 class="author-handle">
+                      {{ .author }}
+                  </h4>
+                  <!-- Date handle -->
+                  {{ with .date }}
+                  <p target="_blank" rel="noopener" class="membership-handle">
+                      {{ . }}
+                  </p>
+                  {{ end }}
+              </div>
+
+              <!-- Description -->
+              <p class="book-description">{{ .description }}</p>
+
+              <!-- Visit website -->
+              {{ with .website }}
+                  <a href="{{ . }}" class="Button">More Info</a>
+              {{ end }}
+
+          </div>
+          {{ end }}
+  </div>
+    </div>
+</div>
+
 {{ end }}

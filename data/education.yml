@@ -1,0 +1,20 @@
+- id: ChE
+  name: B.S. Chemical Engineering
+  author: Oregon State University
+  date: 2017 - 2021
+  description: "3.79 GPA. Magna Cum Laude. Dean's List. Honor Roll."
+  website: https://certwebsite.com
+
+- id: 365-data-science
+  name: Data Scientist Career Track
+  author: 365 Data Science
+  date: January 2022
+  description: 10-course certificate track for data science hosted by 365 Data Science. Courses include deep learning, convolutional neural networks, machine learning, SQL, Python, and foundational skills such as probability and statistics.
+  website: https://learn.365datascience.com/c/0b53e0749a/
+
+- id: google-data-analytics
+  name: Google Data Analytics
+  author: Google
+  date: November 2021
+  description: 8-course data analytics specialization certificate offered by Google. Courses included data cleaning, EDA, visualization, storytelling with data, and R language.
+  website: https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME

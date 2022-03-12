@@ -1,0 +1,13 @@
+- id: src-1017
+  name: Data Analyst Freelancer
+  author: Shiloh Ranch Church and The 1017 project
+  date: September 2021 - January 2022
+  description: Extracted data from social media APIs to determine post effectiveness. Generated data visualizations and compiled them into a ready to deliver to report (click the button to see it)
+  website: https://1017project.com/wp-content/uploads/2021/12/1017-Year-End-Report.pdf
+
+- id: hp
+  name: Reliability Engineering Intern
+  author: HP
+  date: June 2020 - April 2020
+  description: Used Python to initiate a project that allows engineers to understand conditions that merchandise sees during shipment. Used a global database of weather data.
+  website:
