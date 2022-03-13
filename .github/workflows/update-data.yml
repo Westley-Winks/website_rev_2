@@ -9,7 +9,7 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    environment: update-data
+    environment: github-pages
     steps:
       - uses: actions/checkout@v2
 
