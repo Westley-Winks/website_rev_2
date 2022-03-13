@@ -12,3 +12,4 @@ TODO*
 data/augur/
 data/repo_ids.json
 data/projects_tracked.json
+.hugo_build.lock
