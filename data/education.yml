@@ -3,7 +3,7 @@
   author: Oregon State University
   date: 2017 - 2021
   description: "3.79 GPA. Magna Cum Laude. Dean's List. Honor Roll."
-  website: https://certwebsite.com
+  website:
 
 - id: 365-data-science
   name: Data Scientist Career Track
