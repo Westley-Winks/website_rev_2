@@ -3,26 +3,26 @@
   .Button,
   .Button:visited {
     background-color: black;
-    border: 1px solid var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border: 1px solid var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button:focus,
   .Button.is-focus {
     background: black;
-    border-color: var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border-color: var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button:hover,
   .Button.is-hover {
     background-color: var(--tw-color-gray-900-experimental);
-    border-color: var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border-color: var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button:active,
   .Button.is-active {
     background-color: var(--tw-color-gray-900-experimental);
-    border-color: var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border-color: var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
 
   .Button.Button--tertiary,
@@ -30,31 +30,31 @@
   .ButtonGroup--tertiary > .Button,
   .ButtonGroup--tertiary > .Button:visited {
     background-color: black;
-    border: 1px solid var(--tw-color-blue-primary);
-    color: #1DA1F2;
+    border: 1px solid var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button.Button--tertiary:focus,
   .Button.Button--tertiary.is-focus,
   .ButtonGroup--tertiary > .Button:focus,
   .ButtonGroup--tertiary > .Button.is-focus {
     background-color: black;
-    border: 1px solid var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border: 1px solid var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button.Button--tertiary:hover,
   .Button.Button--tertiary.is-hover,
   .ButtonGroup--tertiary > .Button:hover,
   .ButtonGroup--tertiary > .Button.is-hover {
     background-color: var(--tw-color-gray-900-experimental);
-    border-color: var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border-color: var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
   .Button.Button--tertiary:active,
   .Button.Button--tertiary.is-active,
   .ButtonGroup--tertiary > .Button:active,
   .ButtonGroup--tertiary > .Button.is-active {
     background-color: var(--tw-color-gray-900-experimental);
-    border-color: var(--tw-color-blue-primary);
-    color: var(--tw-color-blue-primary);
+    border-color: var(--tw-color-red-deep);
+    color: var(--tw-color-red-deep);
   }
 }

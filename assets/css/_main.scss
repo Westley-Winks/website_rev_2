@@ -77,7 +77,7 @@ main {
 
 // common styles across nav, header, and footer
 nav, .header, .footer {
-  background-color: var(--tw-color-blue-primary);
+  background-color: var(--tw-color-red-600-experimental);
   color: white;
 
   @media (prefers-color-scheme: dark) {
@@ -90,7 +90,7 @@ nav, .header, .footer {
 
     &:hover, &:active {
       text-decoration: none;
-      color: var(--tw-color-blue-faded);
+      color: var(--tw-color-red-faded);
 
       @media (prefers-color-scheme: dark) {
         color: var(--tw-color-gray-light);
@@ -110,10 +110,10 @@ nav {
   flex-wrap: wrap;
 }
 
-.nav-title { 
+.nav-title {
   flex-shrink: 0;
 
-  img { 
+  img {
     height: 1.3em;
     width: 1.3em;
     vertical-align: bottom;
@@ -164,7 +164,7 @@ nav {
         padding: var(--feather-grid-medium) 0;
         margin: 0;
         &:not(:last-child) {
-          border-bottom: 1px solid var(--tw-color-blue-faded);
+          border-bottom: 1px solid var(--tw-color-red-faded);
         }
       }
     }
