@@ -61,9 +61,9 @@
             <!-- <p class="mega-margin">Formal education and online certifications.</p> -->
         </div>
 
-        <div class="timeline-cell">
+        <div id="open-source-timeline" class="timeline-cell">
             {{ range $.Site.Data.education }}
-            <div class="sizeFull membership" id="{{ .id }}">
+            <div id="{{ .id }}">
                 <!-- Logo -->
                 <img src="{{ .logo }}" class="membership-logo">
 
@@ -108,7 +108,7 @@
 
         <div class="timeline-cell">
           {{ range $.Site.Data.experience }}
-          <div class="sizeFull membership" id="{{ .id }}">
+          <div id="{{ .id }}">
               <!-- Logo -->
               <img src="{{ .logo }}" class="membership-logo">
 

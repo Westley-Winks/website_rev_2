@@ -19,10 +19,11 @@
 }
 
 .twitter-timeline, .timeline-cell {
-  height: 450px;
-  @media (min-width: 600px) {
-    height: 700px !important;
-  }
+  display: flex;
+  flex-direction: column;
+  // @media (min-width: 600px) {
+  //   height: 700px; //!important;
+  // }
 }
 
 
