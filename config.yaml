@@ -2,6 +2,8 @@ baseURL: https://westleywinks.com/
 languageCode: en-us
 title: Westley Winks
 
+enableRobotsTXT: true
+
 # disable taxonomy pages
 taxonomies: []
 
