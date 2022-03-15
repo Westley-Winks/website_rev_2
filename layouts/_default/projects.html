@@ -17,7 +17,8 @@
         <h1 class="project-name small-margin">{{ .name }}</h1>
         <div class="border small-margin"{{ with .primaryLanguage }} style="border-bottom-color:{{ .color }}"{{ end }}></div>
         <div class="project-description xsmall-margin">{{ .descriptionHTML | safeHTML }}</div>
-        <p class="project-language">{{ with .primaryLanguage }}{{ .name }}{{ end }}</p>
+        <!-- <p class="project-language">{{ with .primaryLanguage }}{{ .name }}{{ end }}</p> -->
+        <p class="project-language">{{ .repositoryTopics }}</p>
         <div class="whitespace"></div>
         <div class="project-links">
             <a href="https://github.com/{{ .nameWithOwner }}" target="_blank" rel="noopener">GitHub</a>
