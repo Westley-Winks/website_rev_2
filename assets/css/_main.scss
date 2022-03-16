@@ -197,6 +197,12 @@ nav {
 
 /* Footer */
 
+img.logo-img {
+  display: block;
+  width: 175px;
+  height: 175px;
+}
+
 @media (min-width: 800px) {
   .footer .container {
     display: flex;

@@ -3,7 +3,13 @@
         <div class="container">
             <div class="footer-cell footer-margin">
                 <a href="{{ "projects" | relURL }}" class="Button Button--large">Explore Projects</a>
-                <!-- <img height="90" src="/assets/logo_1_white.png" alt="Logo"> -->
+                <!-- <img class="logo-img" src="/assets/logo_1.png" alt="Logo"> -->
+                <picture>
+                    <source
+                      srcset="/assets/logo_1_white.png"
+                      media="(prefers-color-scheme: dark)">
+                    <img class="logo-img" src="/assets/logo_1.png" alt="logo">
+                  </picture>
             </div>
 
             <div class="footer-cell footer-margin">
