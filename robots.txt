@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /hugging-face/
+Disallow: /generally-intelligent/
