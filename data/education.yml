@@ -5,6 +5,13 @@
   description: "3.79 GPA. Magna Cum Laude. Dean's List. Honor Roll."
   website:
 
+- id: deep-learning
+  name: Deep Learning Specialization
+  author: DeepLearning.AI
+  date: March 2022 - In Progress
+  description: 5-course certification program taught by Andrew Ng. Goes through both the theory and application of various deep learning techniques.
+  website: https://coursera.org/share/a89b02d3848dc8d34758bafa6fc619ee
+
 - id: 365-data-science
   name: Data Scientist Career Track
   author: 365 Data Science
