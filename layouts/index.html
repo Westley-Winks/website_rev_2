@@ -57,26 +57,26 @@
         <div class="center-text" id="open-source-text">
           <h1 class="small-title mega-margin open-source-title">Education
           </h1>
+          <p class="mega-margin">Formal education and online certifications.</p>
           <img src="assets/education.svg" class="emoji-img center-margin large-margin">
-            <!-- <p class="mega-margin">Formal education and online certifications.</p> -->
         </div>
 
         <div id="open-source-timeline" class="timeline-cell">
             {{ range $.Site.Data.education }}
             <div id="{{ .id }}">
                 <!-- Logo -->
-                <img src="{{ .logo }}" class="membership-logo">
+                <!-- <img src="{{ .logo }}" class="membership-logo"> -->
 
                 <div class="name-handle">
                     <!-- Name -->
                     <h2>{{ .name }}</h2>
 
-                    <h4 class="author-handle">
+                    <h3 class="author-handle">
                         {{ .author }}
-                    </h4>
+                    </h3>
                     <!-- Date handle -->
                     {{ with .date }}
-                    <p target="_blank" rel="noopener" class="membership-handle">
+                    <p class="membership-handle">
                         {{ . }}
                     </p>
                     {{ end }}
@@ -87,7 +87,7 @@
 
                 <!-- Visit website -->
                 {{ with .website }}
-                    <a href="{{ . }}" class="Button">More Info</a>
+                    <a href="{{ . }}" class="Button" rel="noopener" target="_blank">More Info</a>
                 {{ end }}
 
             </div>
