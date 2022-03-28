@@ -8,9 +8,9 @@
 - id: deep-learning
   name: Deep Learning Specialization
   author: DeepLearning.AI
-  date: March 2022 - In Progress
-  description: 5-course certification program taught by Andrew Ng. Goes through both the theory and application of various deep learning techniques.
-  website: https://coursera.org/share/eb47355dd53a1f3c6b008022bf3c964d
+  date: March 2022 - March 2022
+  description: 5-course certification program taught by Andrew Ng. Goes through both the theory and application of various deep learning techniques. Techniques include neural networks, convolutional neural networks, error analysis and structuring machine learning projects, and sequence models.
+  website: https://coursera.org/share/4f26cfcf8b38119da9493f82c2282396
 
 - id: 365-data-science
   name: Data Scientist Career Track
