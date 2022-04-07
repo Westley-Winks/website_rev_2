@@ -1,4 +1,21 @@
 {
+  "Westley-Winks/hugo-starting-point": {
+    "descriptionHTML": "<div>Easy starting point for a Hugo website. No setting up complicated themes and easy to change and modify. Clone and go!</div>",
+    "forkCount": 0,
+    "homepageUrl": "https://westley-winks.github.io/hugo-starting-point/",
+    "isPrivate": false,
+    "languages": "HTML Python CSS",
+    "name": "hugo-starting-point",
+    "nameWithOwner": "Westley-Winks/hugo-starting-point",
+    "primaryLanguage": {
+      "color": "#e34c26",
+      "name": "HTML"
+    },
+    "pushedAt": "2022-04-07T04:53:41Z",
+    "repositoryTopics": "hugo portfolio website",
+    "stargazers": 0,
+    "watchers": 1
+  },
   "Westley-Winks/oregon-food-insecurity": {
     "descriptionHTML": "<div>An analysis of food insecurity in Oregon in 2020 | WORK IN PROGRESS</div>",
     "forkCount": 0,
@@ -29,7 +46,7 @@
       "name": "Jupyter Notebook"
     },
     "pushedAt": "2022-01-24T18:36:43Z",
-    "repositoryTopics": "",
+    "repositoryTopics": "machine-learning scikit-learn solar",
     "stargazers": 0,
     "watchers": 1
   },
@@ -62,8 +79,8 @@
       "color": "#c6538c",
       "name": "SCSS"
     },
-    "pushedAt": "2022-03-31T01:44:40Z",
-    "repositoryTopics": "",
+    "pushedAt": "2022-04-04T03:37:16Z",
+    "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
   }
