@@ -11,7 +11,7 @@
       "color": "#e34c26",
       "name": "HTML"
     },
-    "pushedAt": "2022-04-07T04:53:41Z",
+    "pushedAt": "2022-04-11T04:52:48Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
@@ -64,7 +64,24 @@
     },
     "pushedAt": "2022-03-31T19:27:13Z",
     "repositoryTopics": "deep-learning object-detection computer-vision",
-    "stargazers": 1,
+    "stargazers": 2,
+    "watchers": 1
+  },
+  "Westley-Winks/until-its-not-fun-newsletter": {
+    "descriptionHTML": "<div>Open source website for our newsletter, Until It's Not Fun.</div>",
+    "forkCount": 0,
+    "homepageUrl": "https://untilitsnotfun.com",
+    "isPrivate": false,
+    "languages": "HTML Python CSS",
+    "name": "until-its-not-fun-newsletter",
+    "nameWithOwner": "Westley-Winks/until-its-not-fun-newsletter",
+    "primaryLanguage": {
+      "color": "#e34c26",
+      "name": "HTML"
+    },
+    "pushedAt": "2022-04-11T21:50:55Z",
+    "repositoryTopics": "newsletter writing",
+    "stargazers": 0,
     "watchers": 1
   },
   "Westley-Winks/website": {
@@ -79,7 +96,7 @@
       "color": "#c6538c",
       "name": "SCSS"
     },
-    "pushedAt": "2022-04-04T03:37:16Z",
+    "pushedAt": "2022-04-11T03:31:29Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
