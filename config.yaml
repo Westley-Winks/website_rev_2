@@ -32,7 +32,7 @@ menu:
     name: GitHub
     url: https://github.com/Westley-Winks
     weight: 10
-  - identifier: twitch
-    name: Twitch
-    url: https://twitch.tv/westley_winks
+  - identifier: newsletter
+    name: Until It's Not Fun
+    url: https://untilitsnotfun.com
     weight: 30
