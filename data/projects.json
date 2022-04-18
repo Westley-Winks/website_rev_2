@@ -72,16 +72,16 @@
     "forkCount": 0,
     "homepageUrl": "https://untilitsnotfun.com",
     "isPrivate": false,
-    "languages": "HTML Python CSS",
+    "languages": "HTML CSS",
     "name": "until-its-not-fun-newsletter",
     "nameWithOwner": "Westley-Winks/until-its-not-fun-newsletter",
     "primaryLanguage": {
       "color": "#e34c26",
       "name": "HTML"
     },
-    "pushedAt": "2022-04-11T21:50:55Z",
-    "repositoryTopics": "newsletter writing",
-    "stargazers": 0,
+    "pushedAt": "2022-04-16T03:53:32Z",
+    "repositoryTopics": "newsletter writing hugo",
+    "stargazers": 2,
     "watchers": 1
   },
   "Westley-Winks/website": {
@@ -96,7 +96,7 @@
       "color": "#c6538c",
       "name": "SCSS"
     },
-    "pushedAt": "2022-04-11T03:31:29Z",
+    "pushedAt": "2022-04-15T03:03:51Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
