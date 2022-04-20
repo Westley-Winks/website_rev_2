@@ -4,7 +4,7 @@
   website: https://thisishowtheytellmetheworldends.com/
   author: Nicole Perlroth
   twitter: nicoleperlroth
-  description: Currently reading.
+  description: Incredible writing and journalism from Perlroth about hackers, exploits, and the clandestine cyber-arms race. My hometown of about 9,000 people *almost* made it into the book. Iranian hackers tried to open Bowman Dam in New York (it was 20 feet tall and disconnected that day for maintenance). One theory is that they were trying to hit the much more significant Bowman Dam on the Crooked River about 10 miles from my childhood home in Prineville. "The dam, 245 feet tall and 800 feet long, holds back 150,000 acre-feet of water from inundating 10,000 residences in downstream Pineville." ... Pineville. So close.
 
 - id: because-internet
   name: "Because Internet: Understanding the New Rules of Language"
@@ -79,7 +79,6 @@
   twitter: Gladwell
   description:
 
-
 - id: monster-calls
   name: A Monster Calls
   logo: /assets/books/a-monster-calls.jpg
@@ -118,37 +117,40 @@
   website: https://tarawestover.com/book
   author: Tara Westover
   twitter: tarawestover
-  description:
+  description: A gripping story of a person fighting against her own culture to discover truth.
 
-- id: every-tools-a-hammer
-  name: "Every Tool's a Hammer: Life Is What You Make It"
-  logo: /assets/books/every-tools-a-hammer.jpg
-  website: https://adamsavage.com/
-  author: Adam Savage
-  twitter: donttrythis
-  description:
+# - id: every-tools-a-hammer
+#   name: "Every Tool's a Hammer: Life Is What You Make It"
+#   logo: /assets/books/every-tools-a-hammer.jpg
+#   website: https://adamsavage.com/
+#   author: Adam Savage
+#   twitter: donttrythis
+#   description:
 
-# - id:
-#   name:
-#   logo: /assets/books/
-#   website:
-#   author:
-#   twitter:
+# - id: quiet
+#   name: "Quiet: The Power of Introverts in a World That Can't Stop Talking"
+#   logo: /assets/books/quiet.jpeg
+#   website: https://susancain.net/book/quiet/#
+#   author: Susan Cain
+#   twitter: susancain
 #   description:
-# - id:
-#   name:
-#   logo: /assets/books/
-#   website:
-#   author:
-#   twitter:
+
+# - id: range
+#   name: "Range: Why Generalists Triumph in a Specialized World"
+#   logo: /assets/books/range.png
+#   website: https://davidepstein.com/the-range/
+#   author: David Epstein
+#   twitter: DavidEpstein
 #   description:
-# - id:
-#   name:
-#   logo: /assets/books/
-#   website:
-#   author:
-#   twitter:
+
+# - id: surprise-kill-vanish
+#   name: "Surprise, Kill, Vanish: The Secret History of CIA Paramilitary Armies, Operators, and Assassins"
+#   logo: /assets/books/surprise-kill-vanish.webp
+#   website: https://anniejacobsen.com/surprise-kill-vanish/
+#   author: Annie Jacobsen
+#   twitter: AnnieJacobsen
 #   description:
+
 # - id:
 #   name:
 #   logo: /assets/books/

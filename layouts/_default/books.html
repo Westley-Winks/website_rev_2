@@ -31,7 +31,7 @@
 			</div>
 
 			<!-- Description -->
-			<p class="book-description">{{ .description }}</p>
+			<p class="book-description">{{ .description | markdownify }}</p>
 
 		    <!-- Visit website -->
 		    {{ with .website }}
