@@ -4,3 +4,4 @@ Westley-Winks/solar-output
 Westley-Winks/oregon-food-insecurity
 Westley-Winks/hugo-starting-point
 Westley-Winks/until-its-not-fun-newsletter
+Westley-Winks/complibot

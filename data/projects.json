@@ -1,4 +1,21 @@
 {
+  "Westley-Winks/complibot": {
+    "descriptionHTML": "<div>Discord bot that compliments (and insults) users</div>",
+    "forkCount": 0,
+    "homepageUrl": "",
+    "isPrivate": false,
+    "languages": "JavaScript Jupyter Notebook",
+    "name": "complibot",
+    "nameWithOwner": "Westley-Winks/complibot",
+    "primaryLanguage": {
+      "color": "#f1e05a",
+      "name": "JavaScript"
+    },
+    "pushedAt": "2022-04-25T04:37:24Z",
+    "repositoryTopics": "discord-bot nodejs",
+    "stargazers": 1,
+    "watchers": 1
+  },
   "Westley-Winks/hugo-starting-point": {
     "descriptionHTML": "<div>Easy starting point for a Hugo website. No setting up complicated themes and easy to change and modify. Clone and go!</div>",
     "forkCount": 0,
@@ -11,7 +28,7 @@
       "color": "#e34c26",
       "name": "HTML"
     },
-    "pushedAt": "2022-04-18T03:39:48Z",
+    "pushedAt": "2022-04-25T03:41:13Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
@@ -96,7 +113,7 @@
       "color": "#c6538c",
       "name": "SCSS"
     },
-    "pushedAt": "2022-04-22T18:50:32Z",
+    "pushedAt": "2022-04-25T03:33:36Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
