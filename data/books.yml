@@ -1,3 +1,12 @@
+- id: project-hail-mary
+  name: "Project Hail Mary"
+  logo: /assets/books/project-hail-mary.jpeg
+  website: https://www.andyweirauthor.com/books/project-hail-mary-hc/project-hail-mary-el
+  author: Andy Weir
+  twitter: andyweirauthor
+  description: Extraordinary. Very similar to *The Martian* by the same author, but the stakes are higher. Instead of everyone on Earth trying to save one person, it is one person trying to save everyone on Earth. Weir's characters are a marvel and no matter how bad a situation is, their problem-solving abilities always save the day.
+
+
 - id: how-they-tell-me-the-world-ends
   name: "This Is How They Tell Me The World Ends"
   logo: /assets/books/how-they-tell-me-the-world-ends.jpg
