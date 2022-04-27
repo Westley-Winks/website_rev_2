@@ -7,8 +7,11 @@ import json
 import requests
 
 import graphql_queries
-# from dotenv import load_dotenv
-# load_dotenv(".env")
+try:
+    from dotenv import load_dotenv
+    load_dotenv(".env")
+except:
+    pass
 
 PATH_TO_DATA = "data"
 GITHUB_USERNAME = os.environ["GH_USERNAME"]

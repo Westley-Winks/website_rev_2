@@ -11,7 +11,7 @@
       "color": "#f1e05a",
       "name": "JavaScript"
     },
-    "pushedAt": "2022-04-25T04:37:24Z",
+    "pushedAt": "2022-04-25T05:28:05Z",
     "repositoryTopics": "discord-bot nodejs",
     "stargazers": 1,
     "watchers": 1
@@ -47,6 +47,23 @@
     },
     "pushedAt": "2021-12-01T01:23:15Z",
     "repositoryTopics": "",
+    "stargazers": 0,
+    "watchers": 1
+  },
+  "Westley-Winks/paperboy": {
+    "descriptionHTML": "<div>Discord bot that integrates with the newsletter I co-author, <a href=\"https://untilitsnotfun.com\" rel=\"nofollow\">https://untilitsnotfun.com</a>\n</div>",
+    "forkCount": 0,
+    "homepageUrl": "",
+    "isPrivate": false,
+    "languages": "JavaScript",
+    "name": "paperboy",
+    "nameWithOwner": "Westley-Winks/paperboy",
+    "primaryLanguage": {
+      "color": "#f1e05a",
+      "name": "JavaScript"
+    },
+    "pushedAt": "2022-04-27T05:42:04Z",
+    "repositoryTopics": "discord-bot nodejs",
     "stargazers": 0,
     "watchers": 1
   },
@@ -96,7 +113,7 @@
       "color": "#e34c26",
       "name": "HTML"
     },
-    "pushedAt": "2022-04-23T22:00:19Z",
+    "pushedAt": "2022-04-26T17:21:38Z",
     "repositoryTopics": "newsletter writing hugo",
     "stargazers": 2,
     "watchers": 1
@@ -113,7 +130,7 @@
       "color": "#c6538c",
       "name": "SCSS"
     },
-    "pushedAt": "2022-04-25T03:33:36Z",
+    "pushedAt": "2022-04-26T17:03:03Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 0,
     "watchers": 1
