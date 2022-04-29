@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /hugging-face/
-Disallow: /grammarly/
 Disallow: /assembly-ai/

@@ -44,25 +44,5 @@
   Firstly, I just started an email newsletter (new posts each week!</description>
     </item>
     
-    <item>
-      <title>Hey Grammarly!</title>
-      <link>https://westleywinks.com/grammarly/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://westleywinks.com/grammarly/</guid>
-      <description>I am excited about joining the team as a software engineer on the machine learning team. I made a quick video explaining why I want to join, what I bring to the table, and how we can create a win-win together. Thanks for watching!
-   Please browse my website to get a feel for my experience and follow the links to my GitHub and LinkedIn accounts for more information.</description>
-    </item>
-    
-    <item>
-      <title>Hey Hugging Face!</title>
-      <link>https://westleywinks.com/hugging-face/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://westleywinks.com/hugging-face/</guid>
-      <description>I am excited about joining the team as a machine learning engineer. I made a quick video explaining why I want to join, what I bring to the table, and how we can create a win-win together. Thanks for watching!
-   Please browse my website to get a feel for my experience and follow the links to my GitHub and LinkedIn accounts for more information. I look forward to talking with you about this opportunity and to answer any questions you have.</description>
-    </item>
-    
   </channel>
 </rss>
