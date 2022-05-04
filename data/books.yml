@@ -1,3 +1,11 @@
+- id: all-quiet-on-the-western-front
+  name: "All Quiet On The Western Front"
+  logo: /assets/books/all-quiet-on-the-western-front.jpeg
+  website: https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front
+  author: Erich Maria Remarque
+  twitter:
+  description: What a story. A group of young cronies fighting in a war that is not their own in the crucible that is the front-line. A constant pull between Life and Death, young boy and grizzled war veteran, fear and bliss, instinct and reason.
+
 - id: project-hail-mary
   name: "Project Hail Mary"
   logo: /assets/books/project-hail-mary.jpeg
