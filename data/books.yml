@@ -1,3 +1,11 @@
+- id: dark-matter
+  name: "Dark Matter"
+  logo: /assets/books/dark-matter.png
+  website: https://blakecrouch.com/books/dark-matter/
+  author: Blake Crouch
+  twitter: blakecrouch1
+  description: A story about regret and what matters most in life told in the craziest way possible. By traveling to other worlds and paths not taken, Jason Dessen evades insanity to find his true identity and his true meaning. Crouch has a very unique, missing-pronoun writing style that adds to one of the themes of the book; Who am *I*? Who is *she*? Who are *we*?
+
 - id: all-quiet-on-the-western-front
   name: "All Quiet On The Western Front"
   logo: /assets/books/all-quiet-on-the-western-front.jpeg
