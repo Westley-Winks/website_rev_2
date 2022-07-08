@@ -77,14 +77,14 @@
                     </h3>
                     <!-- Date handle -->
                     {{ with .date }}
-                    <p class="">
+                    <p>
                         {{ . }}
                     </p>
                     {{ end }}
                 </div>
 
                 <!-- Description -->
-                <p class="book-description text-center py-4 max-w-lg">{{ .description }}</p>
+                <p class="text-center py-4 max-w-lg">{{ .description }}</p>
 
                 <!-- Visit website -->
                 {{ with .website }}
@@ -102,7 +102,7 @@
 <div class="py-10 px-0 bg-neutral-700 dark:bg-neutral-900" id="career">
     <div class="flex flex-row-reverse flex-wrap justify-around items-center">
         <div id="open-source-text" class="text-center px-4">
-            <h1 class="small-title mega-margin career-title">Experience</h1>
+            <h1 class="text-4xl">Experience</h1>
             <img src="assets/fire.svg" class="w-44 h-44 center-margin large-margin">
             <!-- <p class="mega-margin">Words about experience</p> -->
         </div>
@@ -111,13 +111,13 @@
           {{ range $.Site.Data.experience }}
           <div id="{{ .id }}">
               <!-- Logo -->
-              <img src="{{ .logo }}" class="membership-logo">
+              <!-- <img src="{{ .logo }}" class="membership-logo"> -->
 
-              <div class="name-handle">
+              <div class="text-xl pt-16">
                   <!-- Name -->
                   <h2>{{ .name }}</h2>
 
-                  <h4 class="author-handle">
+                  <h4 class="italic">
                       {{ .author }}
                   </h4>
                   <!-- Date handle -->
@@ -129,11 +129,11 @@
               </div>
 
               <!-- Description -->
-              <p class="max-w-lg">{{ .description }}</p>
+              <p class="text-center py-4 max-w-lg">{{ .description }}</p>
 
               <!-- Visit website -->
               {{ with .website }}
-                  <a href="{{ . }}" class="Button">More Info</a>
+                  <a href="{{ . }}" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2">More Info</a>
               {{ end }}
 
           </div>
