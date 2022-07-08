@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 #nav-menu.active {
     display: block;
@@ -40,3 +38,11 @@
     max-width: 40%;
   }
 }
+
+.hide {
+  display: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
