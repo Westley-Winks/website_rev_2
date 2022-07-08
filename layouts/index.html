@@ -1,38 +1,39 @@
 {{ define "header" }}
-<h1 class="subtitle large-title">
+<h1 class="my-4 mx-0 ml-10 text-6xl hover:text-gray-400">
     <a href="{{ "/" | relURL }}" target="_blank" rel="noopener">Westley Winks</a>
 </h1>
-<h1>Learner | Aspiring Humanitarian</h1>
+<!-- <h1 class="ml-10">Learner | Aspiring Humanitarian</h1> -->
 {{ end }}
 
 {{ define "content" }}
 
 <!-- About Me -->
 
-<div class="section grey" id="philosophy">
-    <div class="container">
+<div class="py-10 px-0 bg-neutral-700 dark:bg-neutral-900" id="philosophy">
+    <div class="max-w-7xl my-0 mx-auto">
         <div id="philosophy-text">
-            <h1 class="small-title center-text mega-margin">About Me</h1>
-            <p class="center-text mega-margin">My core character values: </p>
+            <h1 class="text-center text-2xl my-10">About Me</h1>
+            <p class="text-center mega-margin">My core character values: </p>
         </div>
     </div>
-    <div class="small-container" id="emoji-cards">
-        <div class="emoji-card">
+    <div class="flex flex-col m-auto sm:flex-row" id="emoji-cards">
+
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
             <!-- <img src="assets/fire.svg" alt="Fire emoji" class="emoji-img center-margin large-margin"> -->
-            <h1 class="center-text medium-margin">Continual Learning</h1>
-            <p class="center-text">Learning is my favorite hobby and I actively look for learning opportunities in everything that I do.</p>
+            <h1 class="text-center text-2xl m-4">Continual Learning</h1>
+            <p class="text-center">Learning is my favorite hobby and I actively look for learning opportunities in everything that I do.</p>
         </div>
 
-        <div class="emoji-card">
-          <img src="assets/me.jpeg" alt="Picture of me" class="emoji-img center-margin large-margin">
-          <h1 class="center-text medium-margin">Community</h1>
-            <p class="center-text">We all live cooperatively on this planet. Let's love one another and build things together.</p>
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
+          <img src="assets/me.jpeg" alt="Picture of me" class="w-44 h-44 mb-6 rounded-full block ml-auto mr-auto">
+          <h1 class="text-center text-2xl m-4">Community</h1>
+            <p class="text-center">We all live cooperatively on this planet. Let's love one another and build things together.</p>
         </div>
 
-        <div class="emoji-card">
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
             <!-- <img src="assets/heart.svg" alt="Pride heart emoji" class="emoji-img center-margin large-margin"> -->
-            <h1 class="center-text medium-margin">Humanitarian Action</h1>
-            <p class="center-text">I want to be on the cutting edge of using technology to create positive impact in the world with the knowledge and skills that I gain.</p>
+            <h1 class="text-center text-2xl m-4">Humanitarian Action</h1>
+            <p class="text-center">I want to be on the cutting edge of using technology to create positive impact in the world with the knowledge and skills that I gain.</p>
         </div>
 
     </div>
@@ -40,54 +41,54 @@
 
 <!-- Explore Projects -->
 
-<div class="section" id="explore-projects">
-    <div class="container">
-        <div class="explore-text">
-            <h1 class="small-title mega-margin">Explore Projects</h1>
-            <p class="mega-margin">In my free time, I build fun software and data products and open-source them on GitHub.</p>
-            <a href="/projects/" class="Button Button--primary Button--large">View All Projects</a>
+<div class="py-36 px-0 bg-neutral-700 dark:bg-neutral-900" id="explore-projects">
+    <div class="sm:px-32 sm:text-left px-4 text-center">
+        <div class="explore-text sm:mb-0">
+            <h1 class="text-4xl">Explore Projects</h1>
+            <p class="mt-4 mb-8">In my free time, I build fun software and data products and open-source them on GitHub.</p>
+            <a href="/projects/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl align-center p-2 mt-16">View All Projects</a>
         </div>
     </div>
 </div>
 
 <!-- Education -->
 
-<div class="grey section" id="follow-us">
-    <div class="container">
-        <div class="center-text" id="open-source-text">
-          <h1 class="small-title mega-margin open-source-title">Education
+<div class="py-10 px-0 bg-neutral-700 dark:bg-neutral-900" id="follow-us">
+    <div class="flex justify-around items-center flex-wrap">
+        <div class="text-center px-4" id="open-source-text">
+          <h1 class="text-4xl">Education
           </h1>
           <p class="mega-margin">Formal education and online certifications.</p>
-          <img src="assets/education.svg" class="emoji-img center-margin large-margin">
+          <img src="assets/education.svg" class="w-44 h-44 m-auto pt-8">
         </div>
 
-        <div id="open-source-timeline" class="timeline-cell">
+        <div id="open-source-timeline" class="px-6">
             {{ range $.Site.Data.education }}
             <div id="{{ .id }}">
                 <!-- Logo -->
                 <!-- <img src="{{ .logo }}" class="membership-logo"> -->
 
-                <div class="name-handle">
+                <div class="text-xl pt-16">
                     <!-- Name -->
                     <h2>{{ .name }}</h2>
 
-                    <h3 class="author-handle">
+                    <h3 class="italic">
                         {{ .author }}
                     </h3>
                     <!-- Date handle -->
                     {{ with .date }}
-                    <p class="membership-handle">
+                    <p class="">
                         {{ . }}
                     </p>
                     {{ end }}
                 </div>
 
                 <!-- Description -->
-                <p class="book-description">{{ .description }}</p>
+                <p class="book-description text-center py-4 max-w-lg">{{ .description }}</p>
 
                 <!-- Visit website -->
                 {{ with .website }}
-                    <a href="{{ . }}" class="Button" rel="noopener" target="_blank">More Info</a>
+                    <a href="{{ . }}" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2" rel="noopener" target="_blank">More Info</a>
                 {{ end }}
 
             </div>
@@ -98,15 +99,15 @@
 
 <!-- Experience -->
 
-<div class="section" id="career">
-    <div class="container">
-        <div id="open-source-text" class="same-mega-margin center-text">
+<div class="py-10 px-0 bg-neutral-700 dark:bg-neutral-900" id="career">
+    <div class="flex flex-row-reverse flex-wrap justify-around items-center">
+        <div id="open-source-text" class="text-center px-4">
             <h1 class="small-title mega-margin career-title">Experience</h1>
-            <img src="assets/fire.svg" class="emoji-img center-margin large-margin">
+            <img src="assets/fire.svg" class="w-44 h-44 center-margin large-margin">
             <!-- <p class="mega-margin">Words about experience</p> -->
         </div>
 
-        <div class="timeline-cell">
+        <div class="px-6">
           {{ range $.Site.Data.experience }}
           <div id="{{ .id }}">
               <!-- Logo -->
@@ -128,7 +129,7 @@
               </div>
 
               <!-- Description -->
-              <p class="book-description">{{ .description }}</p>
+              <p class="max-w-lg">{{ .description }}</p>
 
               <!-- Visit website -->
               {{ with .website }}

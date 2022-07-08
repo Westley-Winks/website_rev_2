@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav-menu.active {
+    display: block;
+  }
+
+#explore-projects {
+  background-image: url("../assets/network.svg");
+  background-repeat: no-repeat;
+  background-size: auto 380px;
+  background-position: bottom left 5vw;
+}
+
+@media (min-width: 600px) {
+  #explore-projects {
+    background-position: bottom left 35vw;
+  }
+}
+
+@media (min-width: 1100px) {
+  #explore-projects {
+    background-position: bottom right;
+  }
+}
+
+.explore-text {
+  margin-bottom: 320px;
+}
+
+@media (min-width: 600px) {
+  .explore-text {
+    margin-bottom: 0;
+    max-width: 35%;
+  }
+}
+@media (min-width: 1100px) {
+  .explore-text {
+    max-width: 40%;
+  }
+}
