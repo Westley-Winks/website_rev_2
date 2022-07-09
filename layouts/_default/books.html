@@ -9,33 +9,33 @@
 {{ end }}
 
 {{ define "content" }}
-	<div class="bg-neutral-900">
+	<div class="max-w-5xl my-0 mx-4 md:mx-auto">
 		{{ range $.Site.Data.books }}
-		<div class="sizeFull membership" id="{{ .id }}">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="{{ .id }}">
 			<!-- Logo -->
-			<img src="{{ .logo }}" class="w-16 h-16">
+			<img src="{{ .logo }}" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				<!-- Name -->
-				<h2 class="text-xl">{{ .name }}</h2>
+				<h2 class="text-xl m-0 pb-1">{{ .name }}</h2>
 
 				<h4 class="text-base">
 					{{ .author }}
 				</h4>
 				<!-- Twitter handle -->
 				{{ with .twitter }}
-				<a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener" class="text-xl">
+				<a href="https://twitter.com/{{ . }}" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@{{ . }}
 				</a>
 				{{ end }}
 			</div>
 
 			<!-- Description -->
-			<p class="book-description">{{ .description | markdownify }}</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">{{ .description | markdownify }}</p>
 
 		    <!-- Visit website -->
 		    {{ with .website }}
-				<a href="{{ . }}" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="{{ . }}" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    {{ end }}
 
 		</div>

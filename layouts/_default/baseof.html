@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js scroll-pt-10 text-white">
+<html lang="en" class="no-js scroll-pt-10 text-white font-serif">
   <head>
     {{ if hugo.IsProduction }} {{ partial "ga.html" . }} {{ end }}
     {{ partial "head.html" . }}
   </head>
 
-  <body class="flex min-h-screen flex-col">
+  <body class="bg-neutral-900">
     {{ block "nav" . }}{{ partial "nav.html" . }}{{ end }}
 
     {{ block "main" . }}
