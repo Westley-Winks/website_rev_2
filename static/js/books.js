@@ -82,7 +82,7 @@ const pushState = debounce((query, url) => {
 // search the project list for the query string and display ranked results.
 const search = (query) => {
     searchBox.value = query
-    const resultsBox = document.getElementById('results')
+    // const resultsBox = document.getElementById('results')
 
     if (!query) {
         // reset all project cards
@@ -90,7 +90,7 @@ const search = (query) => {
             card.classList.remove("hide")
             card.style.removeProperty("order")
         })
-        resultsBox.classList.add("hide")
+        // resultsBox.classList.add("hide")
         return
     }
     const results = fuse.search(query)
@@ -109,7 +109,7 @@ const search = (query) => {
         card.style.setProperty("order", order++)
     })
 
-    resultsBox.getElementsByClassName("count")[0].innerText = results.length
-    resultsBox.getElementsByClassName("query")[0].innerText = query
-    resultsBox.classList.remove("hide")
+    // resultsBox.getElementsByClassName("count")[0].innerText = results.length
+    // resultsBox.getElementsByClassName("query")[0].innerText = query
+    // resultsBox.classList.remove("hide")
 }

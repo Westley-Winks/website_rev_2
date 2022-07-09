@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css --jit --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css && hugo build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Westley-Winks/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Westley-Winks/website/issues"
+  },
+  "homepage": "https://github.com/Westley-Winks/website#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2"
+  }
+}

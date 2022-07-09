@@ -1,17 +1,17 @@
     <!-- Navigation Bar -->
-    <nav>
-        <div class="nav-title">
-            <a class="home-link" href="{{ "" | relURL }}">
-                <img src="/assets/logo_1_white_cropped.png" alt="Logo">
+    <nav class="bg-black w-full fixed flex justify-between flex-wrap px-8 py-2 z-[2]">
+        <div class="shrink-0">
+            <a class="hover:text-purple-500 text-white font-bold" href="{{ "" | relURL }}">
+                <img class="h-5 w-5 align-bottom mr-2" src="/assets/logo_1_white_cropped.png" alt="Logo">
                 Home
             </a>
         </div>
-        <a id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
+        <a class="block sm:hidden" id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </a>
-        <ul id="nav-menu">
+        <ul id="nav-menu" class="sm:m-0 sm:p-0 sm:block sm:h-6 text-center hidden h-screen w-full sm:w-auto list-disc m-0 mt-16 animate-[fadein_1.5s]">
             {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
             {{ end }}
         </ul>
     </nav>

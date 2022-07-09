@@ -26,10 +26,5 @@
     <title>{{ .Title }}{{ if not .IsHome }} | {{ site.Title }}{{ end }}</title>
     <link rel="shortcut icon" type="image/png" href="{{ "assets/logo_1_white_cropped.png" | relURL }}"/>
 
-    {{- $style := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}"/>
-
-    {{- with .Params.custom_css }}
-    {{- $style := resources.Get (printf "css/%s" .) | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}"/>
-    {{ end }}
+    {{- $style := resources.Get "css/index.css"}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
