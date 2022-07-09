@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js scroll-pt-10 text-white font-serif">
   <head>
      
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LHKLM82J6C"></script>
@@ -37,164 +37,162 @@
 
     <title>Projects | Westley Winks</title>
     <link rel="shortcut icon" type="image/png" href="/assets/logo_1_white_cropped.png"/>
-    <link rel="stylesheet" href="/css/style.min.3a0a44a6c5f156c22262aeb2cc00a14c08656aa059a2b65bce441ee2146e22d3.css"/>
-    <link rel="stylesheet" href="/css/projects.min.888bafea80b916402e685a2f7d8c066eb4b1a05fbc7144239b63afbe01250c81.css"/>
-    
+    <link rel="stylesheet" href="/css/index.css" />
 
   </head>
 
-  <body>
+  <body class="bg-neutral-900 flex flex-col min-h-screen">
         
-    <nav>
-        <div class="nav-title">
-            <a class="home-link" href="/">
-                <img src="/assets/logo_1_white_cropped.png" alt="Logo">
+    <nav class="bg-black w-full fixed flex justify-between flex-wrap px-8 py-2 z-[2]">
+        <div class="shrink-0">
+            <a class="hover:text-purple-500 text-white font-bold" href="/">
+                <img class="h-5 w-5 align-bottom mr-2" src="/assets/logo_1_white_cropped.png" alt="Logo">
                 Home
             </a>
         </div>
-        <a id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
+        <a class="block sm:hidden" id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </a>
-        <ul id="nav-menu">
+        <ul id="nav-menu" class="sm:m-0 sm:p-0 sm:block sm:h-6 text-center hidden h-screen w-full sm:w-auto list-disc m-0 mt-16 animate-[fadein_1.5s]">
             
-                <li><a href="/projects/">Projects</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/projects/">Projects</a></li>
             
-                <li><a href="/books/">Books</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/books/">Books</a></li>
             
-                <li><a href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
             
-                <li><a href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
             
-                <li><a href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
             
         </ul>
     </nav>
 
     
     
-    <main>
-      <div class="header">
-        <div class="container">
+    <main class="flex-1">
+      <div class="bg-black text-white py-8 pt-24">
+        <div class="max-w-6xl my-0 mx-auto">
           <div id="header-text">
             
-<h1 class="large-title">Projects</h1>
-<div id="search-bar" style="display: none;">
-    <input id="search-box" type="text" name="search" placeholder="Search Projects" autocomplete="off" autofocus />
-    <svg id="search-icon" viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+<h1 class="text-6xl ml-4 lg:ml-0">Projects</h1>
+<div id="search-bar" class="bg-neutral-500 max-w-lg border-0 px-4 rounded-3xl justify-between mt-8 mx-4 lg:ml-0" style="display: none;">
+    <input id="search-box" class="text-white border-0 bg-transparent overflow-visible m-0 py-1 px-2 focus:outline-none placeholder:text-white" type="text" name="search" placeholder="Search Projects" autocomplete="off" autofocus />
+    <svg id="search-icon" viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-white mt-2 shrink-0"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
 </div>
 <script>document.getElementById("search-bar").style.display="flex"</script>
 
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="py-0 px-0">
         
 
-<div id="results" class="container hide">Found <span class="count"></span> results for <span class="query"></span></div>
 
-<div class="container all-projects">
-    <div class="project-card" id="Westley-Winks/until-its-not-fun-newsletter">
-        <h1 class="project-name small-margin">until-its-not-fun-newsletter</h1>
-        <div class="border small-margin" style="border-bottom-color:#e34c26"></div>
-        <div class="project-description xsmall-margin"><div>Open source website for our newsletter, Until It's Not Fun.</div></div>
+
+<div class="flex flex-wrap max-w-[1156px] my-0 mx-auto">
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/until-its-not-fun-newsletter">
+        <h1 class="project-name mb-3 text-xl font-bold">until-its-not-fun-newsletter</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#e34c26"></div>
+        <div class="project-description mb-2"><div>Open source website for our newsletter, Until It's Not Fun.</div></div>
         
-        <p class="project-language">newsletter writing hugo</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/until-its-not-fun-newsletter" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://untilitsnotfun.com" target="_blank" rel="noopener">Website</a>
+        <p class="project-language text-neutral-300 text-md">newsletter writing hugo</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/until-its-not-fun-newsletter" target="_blank" rel="noopener">GitHub</a>
+            <a class="block font-bold hover:text-purple-700" href="https://untilitsnotfun.com" target="_blank" rel="noopener">Website</a>
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/website">
-        <h1 class="project-name small-margin">website</h1>
-        <div class="border small-margin" style="border-bottom-color:#c6538c"></div>
-        <div class="project-description xsmall-margin"><div>Personal website</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/website">
+        <h1 class="project-name mb-3 text-xl font-bold">website</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#c6538c"></div>
+        <div class="project-description mb-2"><div>Personal website</div></div>
         
-        <p class="project-language">hugo portfolio website</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/website" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://westleywinks.com" target="_blank" rel="noopener">Website</a>
+        <p class="project-language text-neutral-300 text-md">hugo portfolio website</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/website" target="_blank" rel="noopener">GitHub</a>
+            <a class="block font-bold hover:text-purple-700" href="https://westleywinks.com" target="_blank" rel="noopener">Website</a>
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/hugo-starting-point">
-        <h1 class="project-name small-margin">hugo-starting-point</h1>
-        <div class="border small-margin" style="border-bottom-color:#e34c26"></div>
-        <div class="project-description xsmall-margin"><div>Easy starting point for a Hugo website. No setting up complicated themes and easy to change and modify. Clone and go!</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/hugo-starting-point">
+        <h1 class="project-name mb-3 text-xl font-bold">hugo-starting-point</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#e34c26"></div>
+        <div class="project-description mb-2"><div>Easy starting point for a Hugo website. No setting up complicated themes and easy to change and modify. Clone and go!</div></div>
         
-        <p class="project-language">hugo portfolio website</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/hugo-starting-point" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://westley-winks.github.io/hugo-starting-point/" target="_blank" rel="noopener">Website</a>
+        <p class="project-language text-neutral-300 text-md">hugo portfolio website</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/hugo-starting-point" target="_blank" rel="noopener">GitHub</a>
+            <a class="block font-bold hover:text-purple-700" href="https://westley-winks.github.io/hugo-starting-point/" target="_blank" rel="noopener">Website</a>
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/paperboy">
-        <h1 class="project-name small-margin">paperboy</h1>
-        <div class="border small-margin" style="border-bottom-color:#f1e05a"></div>
-        <div class="project-description xsmall-margin"><div>Discord bot that integrates with the newsletter I co-author, <a href="https://untilitsnotfun.com" rel="nofollow">https://untilitsnotfun.com</a>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/paperboy">
+        <h1 class="project-name mb-3 text-xl font-bold">paperboy</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#f1e05a"></div>
+        <div class="project-description mb-2"><div>Discord bot that integrates with the newsletter I co-author, <a href="https://untilitsnotfun.com" rel="nofollow">https://untilitsnotfun.com</a>
 </div></div>
         
-        <p class="project-language">discord-bot nodejs</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/paperboy" target="_blank" rel="noopener">GitHub</a>
+        <p class="project-language text-neutral-300 text-md">discord-bot nodejs</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/paperboy" target="_blank" rel="noopener">GitHub</a>
             
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/complibot">
-        <h1 class="project-name small-margin">complibot</h1>
-        <div class="border small-margin" style="border-bottom-color:#f1e05a"></div>
-        <div class="project-description xsmall-margin"><div>Discord bot that compliments (and insults) users</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/complibot">
+        <h1 class="project-name mb-3 text-xl font-bold">complibot</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#f1e05a"></div>
+        <div class="project-description mb-2"><div>Discord bot that compliments (and insults) users</div></div>
         
-        <p class="project-language">discord-bot nodejs</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/complibot" target="_blank" rel="noopener">GitHub</a>
+        <p class="project-language text-neutral-300 text-md">discord-bot nodejs</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/complibot" target="_blank" rel="noopener">GitHub</a>
             
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/tactile-paving-detector">
-        <h1 class="project-name small-margin">tactile-paving-detector</h1>
-        <div class="border small-margin" style="border-bottom-color:#DA5B0B"></div>
-        <div class="project-description xsmall-margin"><div>Detects tactile paving in images using deep learning</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/tactile-paving-detector">
+        <h1 class="project-name mb-3 text-xl font-bold">tactile-paving-detector</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#DA5B0B"></div>
+        <div class="project-description mb-2"><div>Detects tactile paving in images using deep learning</div></div>
         
-        <p class="project-language">deep-learning object-detection computer-vision</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/tactile-paving-detector" target="_blank" rel="noopener">GitHub</a>
+        <p class="project-language text-neutral-300 text-md">deep-learning object-detection computer-vision</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/tactile-paving-detector" target="_blank" rel="noopener">GitHub</a>
             
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/solar-output">
-        <h1 class="project-name small-margin">solar-output</h1>
-        <div class="border small-margin" style="border-bottom-color:#DA5B0B"></div>
-        <div class="project-description xsmall-margin"><div>Predicting actual solar panel energy output using machine learning.</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/solar-output">
+        <h1 class="project-name mb-3 text-xl font-bold">solar-output</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#DA5B0B"></div>
+        <div class="project-description mb-2"><div>Predicting actual solar panel energy output using machine learning.</div></div>
         
-        <p class="project-language">machine-learning scikit-learn solar</p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/solar-output" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://share.streamlit.io/westley-winks/solar-output/main" target="_blank" rel="noopener">Website</a>
+        <p class="project-language text-neutral-300 text-md">machine-learning scikit-learn solar</p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/solar-output" target="_blank" rel="noopener">GitHub</a>
+            <a class="block font-bold hover:text-purple-700" href="https://share.streamlit.io/westley-winks/solar-output/main" target="_blank" rel="noopener">Website</a>
         </div>
         
     </div>
-    <div class="project-card" id="Westley-Winks/oregon-food-insecurity">
-        <h1 class="project-name small-margin">oregon-food-insecurity</h1>
-        <div class="border small-margin" style="border-bottom-color:#e34c26"></div>
-        <div class="project-description xsmall-margin"><div>An analysis of food insecurity in Oregon in 2020 | WORK IN PROGRESS</div></div>
+    <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="Westley-Winks/oregon-food-insecurity">
+        <h1 class="project-name mb-3 text-xl font-bold">oregon-food-insecurity</h1>
+        <div class="w-36 border-b-4 mb-3" style="border-bottom-color:#e34c26"></div>
+        <div class="project-description mb-2"><div>An analysis of food insecurity in Oregon in 2020 | WORK IN PROGRESS</div></div>
         
-        <p class="project-language"></p>
-        <div class="whitespace"></div>
-        <div class="project-links">
-            <a href="https://github.com/Westley-Winks/oregon-food-insecurity" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://westley-winks.github.io/oregon-food-insecurity/" target="_blank" rel="noopener">Website</a>
+        <p class="project-language text-neutral-300 text-md"></p>
+        <div class="h-12"></div>
+        <div class="project-links absolute bottom-8">
+            <a class="block font-bold hover:text-purple-700" href="https://github.com/Westley-Winks/oregon-food-insecurity" target="_blank" rel="noopener">GitHub</a>
+            <a class="block font-bold hover:text-purple-700" href="https://westley-winks.github.io/oregon-food-insecurity/" target="_blank" rel="noopener">Website</a>
         </div>
         
     </div>
@@ -206,49 +204,49 @@
     
 
         
-    <div class="footer">
-        <div class="container">
-            <div class="footer-cell footer-margin">
-                <a href="/projects" class="Button Button--large">Explore Projects</a>
+    <div class="py-10 px-0 bg-neutral-900">
+        <div class="sm:flex sm:flex-wrap sm:flex-row sm:justify-between text-center">
+            <div class="mx-4">
+                <a href="/projects" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2">Explore Projects</a>
                 
                 <picture>
                     <source
                       srcset="/assets/logo_1_white.png"
                       media="(prefers-color-scheme: dark)">
-                    <img class="logo-img" src="/assets/logo_1.png" alt="logo">
+                    <img class="w-32 h-32" src="/assets/logo_1.png" alt="logo">
                   </picture>
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">Contact</p>
+            <div class="sm:flex-1 mb-10 sm:ml-8">
+                <h3 class="text-xl font-bold mb-4">
+                    Contact
                 </h3>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
+                <a class="block" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
+                <a class="block" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
+                <a class="block" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
 
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="foot-link font-bold mb-4" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
+                <a class="block" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
             </div>
 
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">References</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="block font-bold mb-4" target="_blank" rel="noopener">References</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
+                <a class="block" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
+                <a class="block" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
+                <a class="block" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
             </div>
 
         </div>

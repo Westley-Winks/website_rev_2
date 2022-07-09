@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js scroll-pt-10 text-white font-serif">
   <head>
 	<meta name="generator" content="Hugo 0.78.0" />
      
@@ -38,47 +38,45 @@
 
     <title>Westley Winks</title>
     <link rel="shortcut icon" type="image/png" href="/assets/logo_1_white_cropped.png"/>
-    <link rel="stylesheet" href="/css/style.min.3a0a44a6c5f156c22262aeb2cc00a14c08656aa059a2b65bce441ee2146e22d3.css"/>
-    <link rel="stylesheet" href="/css/index.min.2ccc9eb659056c93bf70eb4ac019362e1824a3b766f535b77911acbabde049d8.css"/>
-    
+    <link rel="stylesheet" href="/css/index.css" />
 
   </head>
 
-  <body>
+  <body class="bg-neutral-900 flex flex-col min-h-screen">
         
-    <nav>
-        <div class="nav-title">
-            <a class="home-link" href="/">
-                <img src="/assets/logo_1_white_cropped.png" alt="Logo">
+    <nav class="bg-black w-full fixed flex justify-between flex-wrap px-8 py-2 z-[2]">
+        <div class="shrink-0">
+            <a class="hover:text-purple-500 text-white font-bold" href="/">
+                <img class="h-5 w-5 align-bottom mr-2" src="/assets/logo_1_white_cropped.png" alt="Logo">
                 Home
             </a>
         </div>
-        <a id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
+        <a class="block sm:hidden" id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </a>
-        <ul id="nav-menu">
+        <ul id="nav-menu" class="sm:m-0 sm:p-0 sm:block sm:h-6 text-center hidden h-screen w-full sm:w-auto list-disc m-0 mt-16 animate-[fadein_1.5s]">
             
-                <li><a href="/projects/">Projects</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/projects/">Projects</a></li>
             
-                <li><a href="/books/">Books</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/books/">Books</a></li>
             
-                <li><a href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
             
-                <li><a href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
             
-                <li><a href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
             
         </ul>
     </nav>
 
     
     
-    <main>
-      <div class="header">
-        <div class="container">
+    <main class="flex-1">
+      <div class="bg-black text-white py-8 pt-24">
+        <div class="max-w-6xl my-0 mx-auto">
           <div id="header-text">
             
-<h1 class="subtitle large-title">
+<h1 class="my-4 mx-0 ml-10 text-6xl hover:text-gray-400">
     <a href="/" target="_blank" rel="noopener">Westley Winks</a>
 </h1>
 <h1>Software Engineer | Aspiring Humanitarian</h1>
@@ -86,35 +84,36 @@
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="py-0 px-0">
         
 
 
 
-<div class="section grey" id="philosophy">
-    <div class="container">
+<div class="py-10 px-0 bg-neutral-900" id="philosophy">
+    <div class="max-w-7xl my-0 mx-auto">
         <div id="philosophy-text">
-            <h1 class="small-title center-text mega-margin">About Me</h1>
-            <p class="center-text mega-margin">My core character values: </p>
+            <h1 class="text-center text-2xl my-10">About Me</h1>
+            <p class="text-center mega-margin">My core character values: </p>
         </div>
     </div>
-    <div class="small-container" id="emoji-cards">
-        <div class="emoji-card">
+    <div class="flex flex-col m-auto sm:flex-row" id="emoji-cards">
+
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
             
-            <h1 class="center-text medium-margin">Continual Learning</h1>
-            <p class="center-text">Learning is my favorite hobby and I actively look for learning opportunities in everything that I do.</p>
+            <h1 class="text-center text-2xl m-4">Continual Learning</h1>
+            <p class="text-center">Learning is my favorite hobby and I actively look for learning opportunities in everything that I do.</p>
         </div>
 
-        <div class="emoji-card">
-          <img src="assets/me.jpeg" alt="Picture of me" class="emoji-img center-margin large-margin">
-          <h1 class="center-text medium-margin">Community</h1>
-            <p class="center-text">We all live cooperatively on this planet. Let's love one another and build things together.</p>
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
+          <img src="assets/me.jpeg" alt="Picture of me" class="w-44 h-44 mb-6 rounded-full block ml-auto mr-auto">
+          <h1 class="text-center text-2xl m-4">Community</h1>
+            <p class="text-center">We all live cooperatively on this planet. Let's love one another and build things together.</p>
         </div>
 
-        <div class="emoji-card">
+        <div class="py-4 px-7 max-w-xl my-0 mx-auto flex-1">
             
-            <h1 class="center-text medium-margin">Humanitarian Action</h1>
-            <p class="center-text">I want to be on the cutting edge of using technology to create positive impact in the world with the knowledge and skills that I gain.</p>
+            <h1 class="text-center text-2xl m-4">Humanitarian Action</h1>
+            <p class="text-center">I want to be on the cutting edge of using technology to create positive impact in the world with the knowledge and skills that I gain.</p>
         </div>
 
     </div>
@@ -122,50 +121,50 @@
 
 
 
-<div class="section" id="explore-projects">
-    <div class="container">
-        <div class="explore-text">
-            <h1 class="small-title mega-margin">Explore Projects</h1>
-            <p class="mega-margin">In my free time, I build fun software and data products and open-source them on GitHub.</p>
-            <a href="/projects/" class="Button Button--primary Button--large">View All Projects</a>
+<div class="py-36 px-0 bg-neutral-900" id="explore-projects">
+    <div class="sm:px-32 sm:text-left px-4 text-center">
+        <div class="explore-text sm:mb-0">
+            <h1 class="text-4xl">Explore Projects</h1>
+            <p class="mt-4 mb-8">In my free time, I build fun software and data products and open-source them on GitHub.</p>
+            <a href="/projects/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl align-center p-2 mt-16">View All Projects</a>
         </div>
     </div>
 </div>
 
 
 
-<div class="grey section" id="follow-us">
-    <div class="container">
-        <div class="center-text" id="open-source-text">
-          <h1 class="small-title mega-margin open-source-title">Education
+<div class="py-10 px-0 bg-neutral-900" id="follow-us">
+    <div class="flex justify-around items-center flex-wrap">
+        <div class="text-center px-4" id="open-source-text">
+          <h1 class="text-4xl">Education
           </h1>
           <p class="mega-margin">Formal education and online certifications.</p>
-          <img src="assets/education.svg" class="emoji-img center-margin large-margin">
+          <img src="assets/education.svg" class="w-44 h-44 m-auto pt-8">
         </div>
 
-        <div id="open-source-timeline" class="timeline-cell">
+        <div id="open-source-timeline" class="px-6">
             
             <div id="ChE">
                 
                 
 
-                <div class="name-handle">
+                <div class="text-xl pt-16">
                     
-                    <h2>B.S. Chemical Engineering</h2>
+                    <h2 class="font-bold">B.S. Chemical Engineering</h2>
 
-                    <h3 class="author-handle">
+                    <h3 class="italic">
                         Oregon State University
                     </h3>
                     
                     
-                    <p class="membership-handle">
+                    <p>
                         2017 - 2021
                     </p>
                     
                 </div>
 
                 
-                <p class="book-description">3.79 GPA. Magna Cum Laude. Dean&#39;s List. Honor Roll.</p>
+                <p class="text-center py-4 max-w-lg">3.79 GPA. Magna Cum Laude. Dean&#39;s List. Honor Roll.</p>
 
                 
                 
@@ -176,27 +175,27 @@
                 
                 
 
-                <div class="name-handle">
+                <div class="text-xl pt-16">
                     
-                    <h2>Deep Learning Specialization</h2>
+                    <h2 class="font-bold">Deep Learning Specialization</h2>
 
-                    <h3 class="author-handle">
+                    <h3 class="italic">
                         DeepLearning.AI
                     </h3>
                     
                     
-                    <p class="membership-handle">
+                    <p>
                         March 2022
                     </p>
                     
                 </div>
 
                 
-                <p class="book-description">5-course certification program taught by Andrew Ng. Goes through both the theory and application of various deep learning techniques. Techniques include neural networks, convolutional neural networks, error analysis and structuring machine learning projects, and sequence models.</p>
+                <p class="text-center py-4 max-w-lg">5-course certification program taught by Andrew Ng. Goes through both the theory and application of various deep learning techniques. Techniques include neural networks, convolutional neural networks, error analysis and structuring machine learning projects, and sequence models.</p>
 
                 
                 
-                    <a href="https://coursera.org/share/4f26cfcf8b38119da9493f82c2282396" class="Button" rel="noopener" target="_blank">More Info</a>
+                    <a href="https://coursera.org/share/4f26cfcf8b38119da9493f82c2282396" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2" rel="noopener" target="_blank">More Info</a>
                 
 
             </div>
@@ -205,27 +204,27 @@
                 
                 
 
-                <div class="name-handle">
+                <div class="text-xl pt-16">
                     
-                    <h2>Data Scientist Career Track</h2>
+                    <h2 class="font-bold">Data Scientist Career Track</h2>
 
-                    <h3 class="author-handle">
+                    <h3 class="italic">
                         365 Data Science
                     </h3>
                     
                     
-                    <p class="membership-handle">
+                    <p>
                         January 2022
                     </p>
                     
                 </div>
 
                 
-                <p class="book-description">10-course certificate track for data science hosted by 365 Data Science. Courses include deep learning, convolutional neural networks, machine learning, SQL, Python, and foundational skills such as probability and statistics.</p>
+                <p class="text-center py-4 max-w-lg">10-course certificate track for data science hosted by 365 Data Science. Courses include deep learning, convolutional neural networks, machine learning, SQL, Python, and foundational skills such as probability and statistics.</p>
 
                 
                 
-                    <a href="https://learn.365datascience.com/c/0b53e0749a/" class="Button" rel="noopener" target="_blank">More Info</a>
+                    <a href="https://learn.365datascience.com/c/0b53e0749a/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2" rel="noopener" target="_blank">More Info</a>
                 
 
             </div>
@@ -234,27 +233,27 @@
                 
                 
 
-                <div class="name-handle">
+                <div class="text-xl pt-16">
                     
-                    <h2>Google Data Analytics</h2>
+                    <h2 class="font-bold">Google Data Analytics</h2>
 
-                    <h3 class="author-handle">
+                    <h3 class="italic">
                         Google
                     </h3>
                     
                     
-                    <p class="membership-handle">
+                    <p>
                         November 2021
                     </p>
                     
                 </div>
 
                 
-                <p class="book-description">8-course data analytics specialization certificate offered by Google. Courses included data cleaning, EDA, visualization, storytelling with data, and R language.</p>
+                <p class="text-center py-4 max-w-lg">8-course data analytics specialization certificate offered by Google. Courses included data cleaning, EDA, visualization, storytelling with data, and R language.</p>
 
                 
                 
-                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME" class="Button" rel="noopener" target="_blank">More Info</a>
+                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/YG2SF9SZ38ME" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2" rel="noopener" target="_blank">More Info</a>
                 
 
             </div>
@@ -265,25 +264,25 @@
 
 
 
-<div class="section" id="career">
-    <div class="container">
-        <div id="open-source-text" class="same-mega-margin center-text">
-            <h1 class="small-title mega-margin career-title">Experience</h1>
-            <img src="assets/fire.svg" class="emoji-img center-margin large-margin">
+<div class="py-10 px-0 bg-neutral-900" id="career">
+    <div class="flex flex-row-reverse flex-wrap justify-around items-center">
+        <div id="open-source-text" class="text-center px-4">
+            <h1 class="text-4xl">Experience</h1>
+            <img src="assets/fire.svg" class="w-44 h-44 center-margin large-margin">
             
         </div>
 
-        <div class="timeline-cell">
+        <div class="px-6">
           
           <div id="src-1017">
               
-              <img src="" class="membership-logo">
+              
 
-              <div class="name-handle">
+              <div class="text-xl pt-16">
                   
-                  <h2>Data Analyst Freelancer</h2>
+                  <h2 class="font-bold">Data Analyst Freelancer</h2>
 
-                  <h4 class="author-handle">
+                  <h4 class="italic">
                       Shiloh Ranch Church and The 1017 project
                   </h4>
                   
@@ -295,24 +294,24 @@
               </div>
 
               
-              <p class="book-description">Extracted data from social media APIs to determine post effectiveness. Generated data visualizations and compiled them into a ready to deliver to report (click the button to see it)</p>
+              <p class="text-center py-4 max-w-lg">Extracted data from social media APIs to determine post effectiveness. Generated data visualizations and compiled them into a ready to deliver to report (click the button to see it)</p>
 
               
               
-                  <a href="https://1017project.com/wp-content/uploads/2021/12/1017-Year-End-Report.pdf" class="Button">More Info</a>
+                  <a href="https://1017project.com/wp-content/uploads/2021/12/1017-Year-End-Report.pdf" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2">More Info</a>
               
 
           </div>
           
           <div id="hp">
               
-              <img src="" class="membership-logo">
+              
 
-              <div class="name-handle">
+              <div class="text-xl pt-16">
                   
-                  <h2>Reliability Engineering Intern</h2>
+                  <h2 class="font-bold">Reliability Engineering Intern</h2>
 
-                  <h4 class="author-handle">
+                  <h4 class="italic">
                       HP
                   </h4>
                   
@@ -324,7 +323,7 @@
               </div>
 
               
-              <p class="book-description">Used Python to initiate a project that allows engineers to understand conditions that merchandise sees during shipment. Used a global database of weather data.</p>
+              <p class="text-center py-4 max-w-lg">Used Python to initiate a project that allows engineers to understand conditions that merchandise sees during shipment. Used a global database of weather data.</p>
 
               
               
@@ -341,49 +340,49 @@
     
 
         
-    <div class="footer">
-        <div class="container">
-            <div class="footer-cell footer-margin">
-                <a href="/projects" class="Button Button--large">Explore Projects</a>
+    <div class="py-10 px-0 bg-neutral-900">
+        <div class="sm:flex sm:flex-wrap sm:flex-row sm:justify-between text-center">
+            <div class="mx-4">
+                <a href="/projects" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2">Explore Projects</a>
                 
                 <picture>
                     <source
                       srcset="/assets/logo_1_white.png"
                       media="(prefers-color-scheme: dark)">
-                    <img class="logo-img" src="/assets/logo_1.png" alt="logo">
+                    <img class="w-32 h-32" src="/assets/logo_1.png" alt="logo">
                   </picture>
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">Contact</p>
+            <div class="sm:flex-1 mb-10 sm:ml-8">
+                <h3 class="text-xl font-bold mb-4">
+                    Contact
                 </h3>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
+                <a class="block" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
+                <a class="block" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
+                <a class="block" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
 
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="foot-link font-bold mb-4" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
+                <a class="block" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
             </div>
 
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">References</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="block font-bold mb-4" target="_blank" rel="noopener">References</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
+                <a class="block" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
+                <a class="block" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
+                <a class="block" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
             </div>
 
         </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js scroll-pt-10 text-white font-serif">
   <head>
      
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LHKLM82J6C"></script>
@@ -37,99 +37,97 @@
 
     <title>Books | Westley Winks</title>
     <link rel="shortcut icon" type="image/png" href="/assets/logo_1_white_cropped.png"/>
-    <link rel="stylesheet" href="/css/style.min.3a0a44a6c5f156c22262aeb2cc00a14c08656aa059a2b65bce441ee2146e22d3.css"/>
-    <link rel="stylesheet" href="/css/books.min.16aa84ccb09a69c52e692c70653e146db0992a0a264eb424d1c7cf15b0b65426.css"/>
-    
+    <link rel="stylesheet" href="/css/index.css" />
 
   </head>
 
-  <body>
+  <body class="bg-neutral-900 flex flex-col min-h-screen">
         
-    <nav>
-        <div class="nav-title">
-            <a class="home-link" href="/">
-                <img src="/assets/logo_1_white_cropped.png" alt="Logo">
+    <nav class="bg-black w-full fixed flex justify-between flex-wrap px-8 py-2 z-[2]">
+        <div class="shrink-0">
+            <a class="hover:text-purple-500 text-white font-bold" href="/">
+                <img class="h-5 w-5 align-bottom mr-2" src="/assets/logo_1_white_cropped.png" alt="Logo">
                 Home
             </a>
         </div>
-        <a id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
+        <a class="block sm:hidden" id="menu-toggle" href="#" onclick="document.getElementById('nav-menu').classList.toggle('active'); return false;">
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#ffffff"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
         </a>
-        <ul id="nav-menu">
+        <ul id="nav-menu" class="sm:m-0 sm:p-0 sm:block sm:h-6 text-center hidden h-screen w-full sm:w-auto list-disc m-0 mt-16 animate-[fadein_1.5s]">
             
-                <li><a href="/projects/">Projects</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/projects/">Projects</a></li>
             
-                <li><a href="/books/">Books</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="/books/">Books</a></li>
             
-                <li><a href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://github.com/Westley-Winks" target="_blank" rel="noopener">GitHub</a></li>
             
-                <li><a href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://www.linkedin.com/in/westley-winks" target="_blank" rel="noopener">LinkedIn</a></li>
             
-                <li><a href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="https://untilitsnotfun.com" target="_blank" rel="noopener">Until It&#39;s Not Fun</a></li>
             
         </ul>
     </nav>
 
     
     
-    <main>
-      <div class="header">
-        <div class="container">
+    <main class="flex-1">
+      <div class="bg-black text-white py-8 pt-24">
+        <div class="max-w-6xl my-0 mx-auto">
           <div id="header-text">
             
-<h1 class="large-title">Books</h1>
-<h2>An ongoing list of books I have read</h2>
-<div id="search-bar" style="display: none;">
-    <input id="search-box" type="text" name="search" placeholder="Search Books" autocomplete="off" autofocus />
-    <svg id="search-icon" viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+<h1 class="text-6xl ml-4 lg:ml-0">Books</h1>
+<h2 class="ml-4 lg:ml-0 mt-4">An ongoing list of books I have read</h2>
+<div id="search-bar" class="bg-neutral-500 max-w-lg border-0 px-4 rounded-3xl justify-between mt-8 mx-4 sm:ml-0" style="display: none;">
+    <input id="search-box" class="text-white border-0 bg-transparent overflow-visible m-0 py-1 px-2 focus:outline-none placeholder:text-white" type="text" name="search" placeholder="Search Books" autocomplete="off" autofocus />
+    <svg id="search-icon" viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-white mt-2 shrink-0"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
 </div>
 <script>document.getElementById("search-bar").style.display="flex"</script>
 
           </div>
         </div>
       </div>
-      <div class="content">
+      <div class="py-0 px-0">
         
-	<div class="membership-container container">
+	<div class="max-w-5xl my-0 mx-4 md:mx-auto">
 		
-		<div class="sizeFull membership" id="dark-matter">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="dark-matter">
 			
-			<img src="/assets/books/dark-matter.png" class="membership-logo">
+			<img src="/assets/books/dark-matter.png" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Dark Matter</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Dark Matter</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Blake Crouch
 				</h4>
 				
 				
-				<a href="https://twitter.com/blakecrouch1" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/blakecrouch1" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@blakecrouch1
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">A story about regret and what matters most in life told in the craziest way possible. By traveling to other worlds and paths not taken, Jason Dessen evades insanity to find his true identity and his true meaning. Crouch has a very unique, missing-pronoun writing style that adds to one of the themes of the book; Who am <em>I</em>? Who is <em>she</em>? Who are <em>we</em>?</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">A story about regret and what matters most in life told in the craziest way possible. By traveling to other worlds and paths not taken, Jason Dessen evades insanity to find his true identity and his true meaning. Crouch has a very unique, missing-pronoun writing style that adds to one of the themes of the book; Who am <em>I</em>? Who is <em>she</em>? Who are <em>we</em>?</p>
 
 		    
 		    
-				<a href="https://blakecrouch.com/books/dark-matter/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://blakecrouch.com/books/dark-matter/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="all-quiet-on-the-western-front">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="all-quiet-on-the-western-front">
 			
-			<img src="/assets/books/all-quiet-on-the-western-front.jpeg" class="membership-logo">
+			<img src="/assets/books/all-quiet-on-the-western-front.jpeg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>All Quiet On The Western Front</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">All Quiet On The Western Front</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Erich Maria Remarque
 				</h4>
 				
@@ -137,140 +135,140 @@
 			</div>
 
 			
-			<p class="book-description">What a story. A group of young cronies fighting in a war that is not their own in the crucible that is the front-line. A constant pull between Life and Death, young boy and grizzled war veteran, fear and bliss, instinct and reason.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">What a story. A group of young cronies fighting in a war that is not their own in the crucible that is the front-line. A constant pull between Life and Death, young boy and grizzled war veteran, fear and bliss, instinct and reason.</p>
 
 		    
 		    
-				<a href="https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="project-hail-mary">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="project-hail-mary">
 			
-			<img src="/assets/books/project-hail-mary.jpeg" class="membership-logo">
+			<img src="/assets/books/project-hail-mary.jpeg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Project Hail Mary</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Project Hail Mary</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Andy Weir
 				</h4>
 				
 				
-				<a href="https://twitter.com/andyweirauthor" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/andyweirauthor" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@andyweirauthor
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Extraordinary. Very similar to <em>The Martian</em> by the same author, but the stakes are higher. Instead of everyone on Earth trying to save one person, it is one person trying to save everyone on Earth. Weir&rsquo;s characters are a marvel and no matter how bad a situation is, their problem-solving abilities always save the day.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Extraordinary. Very similar to <em>The Martian</em> by the same author, but the stakes are higher. Instead of everyone on Earth trying to save one person, it is one person trying to save everyone on Earth. Weir&rsquo;s characters are a marvel and no matter how bad a situation is, their problem-solving abilities always save the day.</p>
 
 		    
 		    
-				<a href="https://www.andyweirauthor.com/books/project-hail-mary-hc/project-hail-mary-el" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.andyweirauthor.com/books/project-hail-mary-hc/project-hail-mary-el" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="how-they-tell-me-the-world-ends">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="how-they-tell-me-the-world-ends">
 			
-			<img src="/assets/books/how-they-tell-me-the-world-ends.jpg" class="membership-logo">
+			<img src="/assets/books/how-they-tell-me-the-world-ends.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>This Is How They Tell Me The World Ends</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">This Is How They Tell Me The World Ends</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Nicole Perlroth
 				</h4>
 				
 				
-				<a href="https://twitter.com/nicoleperlroth" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/nicoleperlroth" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@nicoleperlroth
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Incredible writing and journalism from Perlroth about hackers, exploits, and the clandestine cyber-arms race. My hometown of about 9,000 people <em>almost</em> made it into the book. Iranian hackers tried to open Bowman Dam in New York (it was 20 feet tall and disconnected that day for maintenance). One theory is that they were trying to hit the much more significant Bowman Dam on the Crooked River about 10 miles from my childhood home in Prineville. &ldquo;The dam, 245 feet tall and 800 feet long, holds back 150,000 acre-feet of water from inundating 10,000 residences in downstream Pineville.&rdquo; &hellip; Pineville. So close.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Incredible writing and journalism from Perlroth about hackers, exploits, and the clandestine cyber-arms race. My hometown of about 9,000 people <em>almost</em> made it into the book. Iranian hackers tried to open Bowman Dam in New York (it was 20 feet tall and disconnected that day for maintenance). One theory is that they were trying to hit the much more significant Bowman Dam on the Crooked River about 10 miles from my childhood home in Prineville. &ldquo;The dam, 245 feet tall and 800 feet long, holds back 150,000 acre-feet of water from inundating 10,000 residences in downstream Pineville.&rdquo; &hellip; Pineville. So close.</p>
 
 		    
 		    
-				<a href="https://thisishowtheytellmetheworldends.com/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://thisishowtheytellmetheworldends.com/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="because-internet">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="because-internet">
 			
-			<img src="/assets/books/because-internet.webp" class="membership-logo">
+			<img src="/assets/books/because-internet.webp" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Because Internet: Understanding the New Rules of Language</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Because Internet: Understanding the New Rules of Language</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Gretchen McCulloch
 				</h4>
 				
 				
-				<a href="https://twitter.com/GretchenAMcC" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/GretchenAMcC" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@GretchenAMcC
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Language (more specifically, how we communicate) is a living and breathing thing that changes with time. That next phase for human communication is through the internet. On the internet, we don&rsquo;t have the luxury of using rising intonation or facial expressions to convey meaning but people come up with creative ways to convey the same information. We build new characters, emojis, and memes all to better understand and love one another.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Language (more specifically, how we communicate) is a living and breathing thing that changes with time. That next phase for human communication is through the internet. On the internet, we don&rsquo;t have the luxury of using rising intonation or facial expressions to convey meaning but people come up with creative ways to convey the same information. We build new characters, emojis, and memes all to better understand and love one another.</p>
 
 		    
 		    
-				<a href="https://gretchenmcculloch.com/book/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://gretchenmcculloch.com/book/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="naked-statistics">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="naked-statistics">
 			
-			<img src="/assets/books/naked-statistics.jpg" class="membership-logo">
+			<img src="/assets/books/naked-statistics.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Naked Statistics: Stripping the Dread from Data</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Naked Statistics: Stripping the Dread from Data</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Charles Wheelan
 				</h4>
 				
 				
-				<a href="https://twitter.com/CharlesWheelan" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/CharlesWheelan" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@CharlesWheelan
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Wheelan makes statistics fun and applicable through real examples. It really helped me reinforce the idea of thinking probabilistically and goes hand in hand with the thoughts in &ldquo;Drunkard&rsquo;s Walk&rdquo; by Leonard Mlodinow. Is it people&rsquo;s choices that determine their outcome or are they the 5% that isn&rsquo;t accounted for in a 95% confidence interval?</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Wheelan makes statistics fun and applicable through real examples. It really helped me reinforce the idea of thinking probabilistically and goes hand in hand with the thoughts in &ldquo;Drunkard&rsquo;s Walk&rdquo; by Leonard Mlodinow. Is it people&rsquo;s choices that determine their outcome or are they the 5% that isn&rsquo;t accounted for in a 95% confidence interval?</p>
 
 		    
 		    
-				<a href="https://www.charleswheelan.com/books.html#statistics" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.charleswheelan.com/books.html#statistics" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="deep-work">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="deep-work">
 			
-			<img src="/assets/books/deep-work.jpg" class="membership-logo">
+			<img src="/assets/books/deep-work.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Deep Work</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Deep Work</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Cal Newport
 				</h4>
 				
@@ -278,285 +276,285 @@
 			</div>
 
 			
-			<p class="book-description">For those in the field of knowledge work, the ability to truly focus and get into a flow state with their work is becoming more rare while at the same time becoming more valuable. The people who can master this skill can use it to get more meaningful work done and learn difficult things quickly to excel in their careers and life.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">For those in the field of knowledge work, the ability to truly focus and get into a flow state with their work is becoming more rare while at the same time becoming more valuable. The people who can master this skill can use it to get more meaningful work done and learn difficult things quickly to excel in their careers and life.</p>
 
 		    
 		    
-				<a href="https://www.calnewport.com/books/deep-work/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.calnewport.com/books/deep-work/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="breath">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="breath">
 			
-			<img src="/assets/books/breath.jpg" class="membership-logo">
+			<img src="/assets/books/breath.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Breath: The New Science of a Lost Art</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Breath: The New Science of a Lost Art</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					James Nestor
 				</h4>
 				
 				
-				<a href="https://twitter.com/MrJamesNestor" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/MrJamesNestor" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@MrJamesNestor
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">An interesting read about something we all do naturally but haven&rsquo;t actually had anyone teach us. Many major religions and cultures throughout time have stumbled upon the fact that breathing is important and can help tune us into the world. Breathe better to live better.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">An interesting read about something we all do naturally but haven&rsquo;t actually had anyone teach us. Many major religions and cultures throughout time have stumbled upon the fact that breathing is important and can help tune us into the world. Breathe better to live better.</p>
 
 		    
 		    
-				<a href="https://www.mrjamesnestor.com/breath-book" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.mrjamesnestor.com/breath-book" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="atomic-habits">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="atomic-habits">
 			
-			<img src="/assets/books/atomic-habits.png" class="membership-logo">
+			<img src="/assets/books/atomic-habits.png" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Atomic Habits</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Atomic Habits</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					James Clear
 				</h4>
 				
 				
-				<a href="https://twitter.com/JamesClear" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/JamesClear" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@JamesClear
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">A classic in the productivity/self help space. Atomic Habits gives clear and actionable things we can do to develop better habits and remove unwanted ones. <em>Almost</em> over-hyped but there are still some very powerful skills throughout the book.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">A classic in the productivity/self help space. Atomic Habits gives clear and actionable things we can do to develop better habits and remove unwanted ones. <em>Almost</em> over-hyped but there are still some very powerful skills throughout the book.</p>
 
 		    
 		    
-				<a href="https://jamesclear.com/atomic-habits" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://jamesclear.com/atomic-habits" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="looking-for-alaska">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="looking-for-alaska">
 			
-			<img src="/assets/books/looking-for-alaska.jpeg" class="membership-logo">
+			<img src="/assets/books/looking-for-alaska.jpeg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Looking for Alaska</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Looking for Alaska</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					John Green
 				</h4>
 				
 				
-				<a href="https://twitter.com/johngreen" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/johngreen" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@johngreen
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description"></p>
+			<p class="book-description md:ml-24 pt-2 mb-5"></p>
 
 		    
 		    
-				<a href="https://www.johngreenbooks.com/looking-for-alaska" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.johngreenbooks.com/looking-for-alaska" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="the-anthropocene-reviewed">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="the-anthropocene-reviewed">
 			
-			<img src="/assets/books/the-anthropocene-reviewed.webp" class="membership-logo">
+			<img src="/assets/books/the-anthropocene-reviewed.webp" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>The Anthropocene Reviewed</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">The Anthropocene Reviewed</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					John Green
 				</h4>
 				
 				
-				<a href="https://twitter.com/johngreen" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/johngreen" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@johngreen
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Lots of fun facts and factoids, all broken into fun bite-sized chapters. Almost as good as the podcast but Green&rsquo;s voice and long pauses add a lot of emotion and human touch to the stories. This book weaves between fascinating, moving, awe-inspiring, saddening all within pages from one another. And at the end, you get plenty of trivia for your next Jeopardy! event or party&hellip;if your friends are into that kind of thing.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Lots of fun facts and factoids, all broken into fun bite-sized chapters. Almost as good as the podcast but Green&rsquo;s voice and long pauses add a lot of emotion and human touch to the stories. This book weaves between fascinating, moving, awe-inspiring, saddening all within pages from one another. And at the end, you get plenty of trivia for your next Jeopardy! event or party&hellip;if your friends are into that kind of thing.</p>
 
 		    
 		    
-				<a href="https://anthropocenereviewedbook.com/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://anthropocenereviewedbook.com/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="the-index-card">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="the-index-card">
 			
-			<img src="/assets/books/the-index-card.png" class="membership-logo">
+			<img src="/assets/books/the-index-card.png" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>The Index Card: Why Personal Finance Doesn&#39;t Have To Be Complicated</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">The Index Card: Why Personal Finance Doesn&#39;t Have To Be Complicated</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Helaine Olen &amp; Harold Pollack
 				</h4>
 				
 				
-				<a href="https://twitter.com/haroldpollack" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/haroldpollack" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@haroldpollack
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">The easiest way to handle personal finances. Are you going to become rich by reading this book? No. But you will learn easy ways to increase your financial security in both the short and the long term.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">The easiest way to handle personal finances. Are you going to become rich by reading this book? No. But you will learn easy ways to increase your financial security in both the short and the long term.</p>
 
 		    
 		    
-				<a href="http://helaineolen.com/books/the-index-card/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="http://helaineolen.com/books/the-index-card/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="blink">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="blink">
 			
-			<img src="/assets/books/blink.webp" class="membership-logo">
+			<img src="/assets/books/blink.webp" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Blink</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Blink</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Malcolm Gladwell
 				</h4>
 				
 				
-				<a href="https://twitter.com/Gladwell" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/Gladwell" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@Gladwell
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description"></p>
+			<p class="book-description md:ml-24 pt-2 mb-5"></p>
 
 		    
 		    
-				<a href="https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="monster-calls">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="monster-calls">
 			
-			<img src="/assets/books/a-monster-calls.jpg" class="membership-logo">
+			<img src="/assets/books/a-monster-calls.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>A Monster Calls</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">A Monster Calls</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Patrick Ness
 				</h4>
 				
 				
-				<a href="https://twitter.com/patrick_ness" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/patrick_ness" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@patrick_ness
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Absolutely fantastic. Not many things in the world make me cry, but when I was bawling when I reached the end of this one. Lots of deeper meaning intertwined within the stories and experiences of the main character.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Absolutely fantastic. Not many things in the world make me cry, but when I was bawling when I reached the end of this one. Lots of deeper meaning intertwined within the stories and experiences of the main character.</p>
 
 		    
 		    
-				<a href="https://patrickness.com/book/a-monster-calls/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://patrickness.com/book/a-monster-calls/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="why-we-sleep">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="why-we-sleep">
 			
-			<img src="/assets/books/why-we-sleep.webp" class="membership-logo">
+			<img src="/assets/books/why-we-sleep.webp" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Why We Sleep: Unlocking the Power of Sleep and Dreams</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Why We Sleep: Unlocking the Power of Sleep and Dreams</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Matthew Walker
 				</h4>
 				
 				
-				<a href="https://twitter.com/sleepdiplomat" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/sleepdiplomat" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@sleepdiplomat
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Much like &ldquo;Breath&rdquo; by James Nestor, sleeping is something we all need to do but nobody has taught us the importance or how to sleep. Sleeping keeps us alive and allows us to learn, remember, and be creative. It is one of the most important activities we do and yet it feels like a burden or a waste of time. Walker describes this importance as well as actionable tips on how to sleep better.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Much like &ldquo;Breath&rdquo; by James Nestor, sleeping is something we all need to do but nobody has taught us the importance or how to sleep. Sleeping keeps us alive and allows us to learn, remember, and be creative. It is one of the most important activities we do and yet it feels like a burden or a waste of time. Walker describes this importance as well as actionable tips on how to sleep better.</p>
 
 		    
 		    
-				<a href="https://www.sleepdiplomat.com/author" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.sleepdiplomat.com/author" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="algorithms-to-live-by">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="algorithms-to-live-by">
 			
-			<img src="/assets/books/algorithms-to-live-by.png" class="membership-logo">
+			<img src="/assets/books/algorithms-to-live-by.png" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Algorithms to Live By: The Computer Science of Human Decisions</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Algorithms to Live By: The Computer Science of Human Decisions</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Brian Christian &amp; Tom Griffiths
 				</h4>
 				
 				
-				<a href="https://twitter.com/brianchristian" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/brianchristian" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@brianchristian
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">Looking at normal everyday decisions through a computer science lens. What is the best way to reorganize your bookshelf? Should you park your car here or loop around again to try to find a closer space? Algorithmic thinking (the kind computers do) can help us solve problems like these.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Looking at normal everyday decisions through a computer science lens. What is the best way to reorganize your bookshelf? Should you park your car here or loop around again to try to find a closer space? Algorithmic thinking (the kind computers do) can help us solve problems like these.</p>
 
 		    
 		    
-				<a href="https://algorithmstoliveby.com/" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://algorithmstoliveby.com/" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="chasing-chaos">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="chasing-chaos">
 			
-			<img src="/assets/books/chasing-chaos.jpeg" class="membership-logo">
+			<img src="/assets/books/chasing-chaos.jpeg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Chasing Chaos: My Decade In and Out of Humanitarian Aid</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Chasing Chaos: My Decade In and Out of Humanitarian Aid</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Jessica Alexander
 				</h4>
 				
@@ -564,40 +562,40 @@
 			</div>
 
 			
-			<p class="book-description">Real experiences of a humanitarian professional. This book is a simple biography that takes you through Alexander&rsquo;s choices and experiences that led her into the humanitarian field and how she excelled in it.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">Real experiences of a humanitarian professional. This book is a simple biography that takes you through Alexander&rsquo;s choices and experiences that led her into the humanitarian field and how she excelled in it.</p>
 
 		    
 		    
-				<a href="https://www.jessicabalexander.com/book" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://www.jessicabalexander.com/book" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
 		
-		<div class="sizeFull membership" id="educated">
+		<div class="sizeFull membership py-5 border-t-white border-t-2 relative first:border-none" id="educated">
 			
-			<img src="/assets/books/educated.jpg" class="membership-logo">
+			<img src="/assets/books/educated.jpg" class="w-12 h-12 top-5 left-0 border-none absolute md:w-16 md:h-16">
 
-			<div class="name-handle">
+			<div class="name-handle w-1/2 ml-24 md:w-4/5">
 				
-				<h2>Educated: A Memoir</h2>
+				<h2 class="text-xl m-0 pb-1 font-bold">Educated: A Memoir</h2>
 
-				<h4 class="author-handle">
+				<h4 class="text-base">
 					Tara Westover
 				</h4>
 				
 				
-				<a href="https://twitter.com/tarawestover" target="_blank" rel="noopener" class="membership-handle">
+				<a href="https://twitter.com/tarawestover" target="_blank" rel="noopener" class="text-sm text-neutral-600 hover:text-blue-600">
 					@tarawestover
 				</a>
 				
 			</div>
 
 			
-			<p class="book-description">A gripping story of a person fighting against her own culture to discover truth.</p>
+			<p class="book-description md:ml-24 pt-2 mb-5">A gripping story of a person fighting against her own culture to discover truth.</p>
 
 		    
 		    
-				<a href="https://tarawestover.com/book" class="Button" target="_blank" rel="noopener">More Info</a>
+				<a href="https://tarawestover.com/book" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl px-3 absolute sm:right-0 bottom-0 mb-2 sm:top-5 sm:bottom-auto left-0 right-auto sm:left-auto" target="_blank" rel="noopener">More Info</a>
 		    
 
 		</div>
@@ -609,49 +607,49 @@
     
 
         
-    <div class="footer">
-        <div class="container">
-            <div class="footer-cell footer-margin">
-                <a href="/projects" class="Button Button--large">Explore Projects</a>
+    <div class="py-10 px-0 bg-neutral-900">
+        <div class="sm:flex sm:flex-wrap sm:flex-row sm:justify-between text-center">
+            <div class="mx-4">
+                <a href="/projects" class="bg-purple-700 hover:bg-purple-400 hover:border-none border rounded-xl justify-center p-2">Explore Projects</a>
                 
                 <picture>
                     <source
                       srcset="/assets/logo_1_white.png"
                       media="(prefers-color-scheme: dark)">
-                    <img class="logo-img" src="/assets/logo_1.png" alt="logo">
+                    <img class="w-32 h-32" src="/assets/logo_1.png" alt="logo">
                   </picture>
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">Contact</p>
+            <div class="sm:flex-1 mb-10 sm:ml-8">
+                <h3 class="text-xl font-bold mb-4">
+                    Contact
                 </h3>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
+                <a class="block" target="_blank" rel="noopener" href="mailto://westleywinks@protonmail.com?subject=Hello!">Email</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
+                <a class="block" target="_blank" rel="noopener" href="https://discordapp.com/users/664662599207485461">Discord</a>
 
-                <a class="foot-link" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
+                <a class="block" target="_blank" rel="noopener" href="https://matrix.to/#/@westley-winks:matrix.org">Matrix</a>
 
             </div>
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="foot-link font-bold mb-4" target="_blank" rel="noopener" href="https://blog.twitter.com/">Links</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.github.com/Westley-Winks">GitHub</a>
+                <a class="block" target="_blank" rel="noopener" href="https://www.linkedin.com/in/westley-winks">LinkedIn</a>
+                <a class="block" target="_blank" rel="noopener" href="https://untilitsnotfun.com">Until It's Not Fun</a>
             </div>
 
 
-            <div class="footer-cell footer-margin">
-                <h3 class="xsmall-margin">
-                    <p class="foot-link" target="_blank" rel="noopener">References</p>
+            <div class="sm:flex-1 mb-10">
+                <h3 class="text-xl">
+                    <p class="block font-bold mb-4" target="_blank" rel="noopener">References</p>
                 </h3>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
-                <a class="foot-link" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
+                <a class="block" target="_blank" rel="noopener" href="https://opensource.twitter.dev/">Open Source Twitter</a>
+                <a class="block" target="_blank" rel="noopener" href="https://gohugo.io/">Hugo</a>
+                <a class="block" target="_blank" rel="noopener" href="https://leviwolfe.com/">Levi Wolfe</a>
             </div>
 
         </div>
