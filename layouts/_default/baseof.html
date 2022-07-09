@@ -5,7 +5,7 @@
     {{ partial "head.html" . }}
   </head>
 
-  <body class="bg-neutral-900">
+  <body class="bg-neutral-900 flex flex-col min-h-screen">
     {{ block "nav" . }}{{ partial "nav.html" . }}{{ end }}
 
     {{ block "main" . }}

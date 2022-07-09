@@ -1,6 +1,6 @@
 {{ define "header" }}
-<h1 class="text-6xl">Projects</h1>
-<div id="search-bar" class="bg-neutral-500 max-w-lg border-0 px-4 rounded-3xl justify-between mt-8" style="display: none;">
+<h1 class="text-6xl ml-4 lg:ml-0">Projects</h1>
+<div id="search-bar" class="bg-neutral-500 max-w-lg border-0 px-4 rounded-3xl justify-between mt-8 mx-4 lg:ml-0" style="display: none;">
     <input id="search-box" class="text-white border-0 bg-transparent overflow-visible m-0 py-1 px-2 focus:outline-none placeholder:text-white" type="text" name="search" placeholder="Search Projects" autocomplete="off" autofocus />
     <svg id="search-icon" viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-white mt-2 shrink-0"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
 </div>
@@ -11,14 +11,14 @@
 <!-- Container for results text -->
 <!-- <div id="results" class="container hide">Found <span class="count"></span> results for <span class="query"></span></div> -->
 
-<div class="flex flex-wrap max-w-7xl my-0 mx-auto">
+<div class="flex flex-wrap max-w-[1156px] my-0 mx-auto">
     {{ range sort $.Site.Data.projects "pushedAt" "desc" -}}
     <div class="project-card relative flex-1 py-8 px-12 max-w-[500px] min-w-[385px]" id="{{ .nameWithOwner }}">
         <h1 class="project-name mb-3 text-xl font-bold">{{ .name }}</h1>
         <div class="w-36 border-b-4 mb-3"{{ with .primaryLanguage }} style="border-bottom-color:{{ .color }}"{{ end }}></div>
         <div class="project-description mb-2">{{ .descriptionHTML | safeHTML }}</div>
         <!-- <p class="project-language">{{ with .primaryLanguage }}{{ .name }}{{ end }}</p> -->
-        <p class="project-language text-red-700 text-md">{{ .repositoryTopics }}</p>
+        <p class="project-language text-neutral-300 text-md">{{ .repositoryTopics }}</p>
         <div class="h-12"></div>
         <div class="project-links absolute bottom-8">
             <a class="block font-bold hover:text-purple-700" href="https://github.com/{{ .nameWithOwner }}" target="_blank" rel="noopener">GitHub</a>
