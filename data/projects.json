@@ -123,14 +123,14 @@
     "forkCount": 0,
     "homepageUrl": "https://westleywinks.com",
     "isPrivate": false,
-    "languages": "SCSS HTML Python JavaScript",
+    "languages": "HTML Python JavaScript CSS",
     "name": "website",
     "nameWithOwner": "Westley-Winks/website",
     "primaryLanguage": {
-      "color": "#c6538c",
-      "name": "SCSS"
+      "color": "#e34c26",
+      "name": "HTML"
     },
-    "pushedAt": "2022-07-04T04:00:37Z",
+    "pushedAt": "2022-07-09T08:20:14Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 1,
     "watchers": 1
