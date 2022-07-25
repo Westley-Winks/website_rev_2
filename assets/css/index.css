@@ -1,3 +1,32 @@
+/* Custom CSS for Markdown -> HTML conversion */
+
+#post-content:first-child {
+  margin-top: 2rem;
+}
+
+#post-content p {
+  margin-bottom: 1rem;
+}
+
+#post-content h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+#post-content h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+#post-content h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 #nav-menu.active {
   display: block;
 }
@@ -42,9 +71,7 @@
   display: none;
 }
 
-/*
-! tailwindcss v3.1.2 | MIT License | https://tailwindcss.com
-*/
+/* ! tailwindcss v3.1.2 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -689,9 +716,14 @@ video {
   margin-bottom: 1rem;
 }
 
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .my-0 {
@@ -709,27 +741,19 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.mx-10 {
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-11 {
-  margin-left: 2.75rem;
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .mb-6 {
@@ -794,10 +818,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.ml-12 {
-  margin-left: 3rem;
 }
 
 .block {
@@ -906,6 +926,10 @@ video {
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
 }
 
 .flex-1 {
@@ -1138,6 +1162,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .align-bottom {
   vertical-align: bottom;
 }
@@ -1176,8 +1204,17 @@ video {
   line-height: 1.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .italic {
@@ -1188,6 +1225,10 @@ video {
   line-height: 2.5rem;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1196,6 +1237,11 @@ video {
 .text-neutral-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.text-neutral-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
 .text-neutral-300 {

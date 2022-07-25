@@ -27,12 +27,12 @@ menu:
     name: LinkedIn
     url: https://www.linkedin.com/in/westley-winks
     rel: noopener
-    weight: 20
+    weight: 30
   - identifier: github
     name: GitHub
     url: https://github.com/Westley-Winks
-    weight: 10
+    weight: 20
   - identifier: newsletter
     name: Until It's Not Fun
     url: https://untilitsnotfun.com
-    weight: 30
+    weight: 40

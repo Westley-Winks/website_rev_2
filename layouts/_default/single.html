@@ -1,11 +1,11 @@
 {{ define "header" }}
 
-<h1 class="large-title">{{ .Params.title }} </h1>
+<h1 class="text-5xl">{{ .Params.title }} </h1>
 
 {{ end }}
 
 {{ define "content" }}
-  <div class="container">
+  <div id="post-content" class="font-thin leading-8 text-justify mx-auto max-w-4xl">
     {{ .Content }}
   </div>
 {{ end }}
