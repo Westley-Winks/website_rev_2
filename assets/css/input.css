@@ -20,6 +20,18 @@
   @apply text-lg
 }
 
+#post-content a {
+  @apply border-b-2 border-neutral-400 hover:bg-neutral-500
+}
+
+#post-content ul {
+  list-style-type: circle;
+}
+
+#post-content ol {
+  list-style-type: decimal;
+}
+
 #nav-menu.active {
     display: block;
   }

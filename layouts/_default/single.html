@@ -1,11 +1,14 @@
 {{ define "header" }}
 
-<h1 class="text-5xl">{{ .Params.title }} </h1>
+<h1 class="text-5xl mx-6">{{ .Params.title }}</h1>
+<h2 class="text-2xl italic mx-6 pt-4 opacity-70">{{ .Date.Format "January 2, 2006" }}</h2>
 
 {{ end }}
 
 {{ define "content" }}
-  <div id="post-content" class="font-thin leading-8 text-justify mx-auto max-w-4xl">
+<div class="mx-auto max-w-3xl my-0">
+  <div id="post-content" class="font-thin leading-8 text-justify mx-6">
     {{ .Content }}
   </div>
+</div>
 {{ end }}
