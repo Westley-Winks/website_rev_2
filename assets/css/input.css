@@ -1,4 +1,36 @@
+/* Custom CSS for Markdown -> HTML conversion */
 
+#post-content:first-child {
+  @apply mt-8
+}
+
+#post-content p {
+  @apply mb-4
+}
+
+#post-content h1 {
+  @apply text-2xl font-bold mb-4
+}
+
+#post-content h2 {
+  @apply text-xl font-semibold mb-4
+}
+
+#post-content h3 {
+  @apply text-lg
+}
+
+#post-content a {
+  @apply border-b-2 border-neutral-400 hover:bg-neutral-500
+}
+
+#post-content ul {
+  list-style-type: circle;
+}
+
+#post-content ol {
+  list-style-type: decimal;
+}
 
 #nav-menu.active {
     display: block;
