@@ -51,7 +51,7 @@
     "watchers": 1
   },
   "Westley-Winks/paperboy": {
-    "descriptionHTML": "<div>Discord bot that integrates with the newsletter I co-author, <a href=\"https://untilitsnotfun.com\" rel=\"nofollow\">https://untilitsnotfun.com</a>\n</div>",
+    "descriptionHTML": "<div>Discord bot that integrates with the newsletter I co-author, <a href=\"https://untilitsnotfun.com\" rel=\"nofollow\">https://untilitsnotfun.com</a></div>",
     "forkCount": 0,
     "homepageUrl": "",
     "isPrivate": false,
@@ -147,7 +147,7 @@
       "color": "#e34c26",
       "name": "HTML"
     },
-    "pushedAt": "2022-08-01T04:35:30Z",
+    "pushedAt": "2022-08-14T20:40:51Z",
     "repositoryTopics": "hugo portfolio website",
     "stargazers": 1,
     "watchers": 1
