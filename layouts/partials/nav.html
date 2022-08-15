@@ -1,7 +1,7 @@
     <!-- Navigation Bar -->
     <nav class="bg-black w-full fixed flex justify-between flex-wrap px-8 py-2 z-[2]">
         <div class="shrink-0">
-            <a class="hover:text-purple-500 text-white font-bold" href="{{ "" | relURL }}">
+            <a class="hover:text-neutral-400 text-white font-bold" href="{{ "" | relURL }}">
                 <img class="h-5 w-5 align-bottom mr-2" src="/assets/logo_1_white_cropped.png" alt="Logo">
                 Home
             </a>
@@ -11,7 +11,7 @@
         </a>
         <ul id="nav-menu" class="sm:m-0 sm:p-0 sm:block sm:h-6 text-center hidden h-screen w-full sm:w-auto list-disc m-0 mt-16 animate-[fadein_1.5s]">
             {{ range .Site.Menus.main }}
-                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-purple-500 text-white" href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
+                <li class="sm:inline-block sm:ml-3 block py-4 px-0 m-0"><a class="hover:text-neutral-400 text-white" href="{{ .URL }}"{{ if not (hasPrefix .URL "/") }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
             {{ end }}
         </ul>
     </nav>

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css --jit --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css && hugo build"
+    "build": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/index.css && hugo"
   },
   "repository": {
     "type": "git",
