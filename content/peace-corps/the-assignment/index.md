@@ -2,7 +2,7 @@
 title: The Assignment
 date: 2022-08-22
 draft: false
-description: ""
+description: "In my first post, I am writing from home to introduce the blog and very simply describe my role as a Peace Corps volunteer"
 ---
 
 On December 24, 2020, I applied for the Peace Corps. I was entering my last terms of college and knew that I wanted to join the Peace Corps when I graduated. 
