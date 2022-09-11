@@ -1,21 +1,24 @@
 {{ define "main" }}
 
 <main class="flex-1">
-    <div class="bg-black text-white py-8 pt-24">
-      <div class="max-w-6xl my-0 mx-auto">
-          {{ block "header" . }}
-            {{ with .Title }}<h1 class="text-6xl mx-6">{{ . }}</h1>{{ end }}
-          {{ end }}
-          <div class="pt-8 mx-6">{{ .Content }}</div>
+  <div class="bg-black text-white py-8 pt-24">
+    <div class="max-w-6xl my-0 mx-auto">
+      {{ block "header" . }}
+      {{ with .Title }}<h1 class="text-6xl mx-6">{{ . }}</h1>{{ end }}
+      {{ end }}
+      <div class="pt-8 mx-6">{{ .Content }}
+        <br/>
+        <a href="https://buttondown.email/Westley_Winks" class="bg-neutral-500 hover:bg-neutral-400 hover:border-none border rounded-xl align-center p-2">Click here to get posts in your email inbox!</a>
       </div>
     </div>
-    <div class="max-w-5xl my-0 mx-auto">
-      <ul class="mx-6">
-        {{ range .Pages }}
-          {{ .Render "li" }}
-        {{ end }}
-      </ul>
-    </div>
-  </main>
+  </div>
+  <div class="max-w-5xl my-0 mx-auto">
+    <ul class="mx-6">
+      {{ range .Pages }}
+      {{ .Render "li" }}
+      {{ end }}
+    </ul>
+  </div>
+</main>
 
 {{ end }}
