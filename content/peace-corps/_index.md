@@ -4,7 +4,7 @@ menu: main
 weight: 1
 ---
 
-Follow along as I write about my experience in Morocco serving as a Peace Corps volunteer. The sign up to get each post in your email inbox is in progress and should be up soon!
+Follow along as I write about my experience in Morocco serving as a Peace Corps volunteer. To get each post in your email inbox, click the button below!
 
 </br>
 
