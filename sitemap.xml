@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://westleywinks.com/peace-corps/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://westleywinks.com/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://westleywinks.com/books/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://westleywinks.com/peace-corps/settling-in-and-housekeeping/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://westleywinks.com/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://westleywinks.com/peace-corps/the-assignment/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>
