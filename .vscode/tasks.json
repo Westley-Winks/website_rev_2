@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Create New Post",
+            "type": "shell",
+            "command": "hugo new --kind pc-post peace-corps/${input:postFolderName}",
+
+        },
+        {
+            "label": "Test",
+            "type": "shell",
+            "command": "hugo serve -D",
+            "isBackground": true,
+        }
+    ],
+    "inputs": [
+        {
+            "id": "postFolderName",
+            "type": "promptString",
+            "description": "The name of the new post folder",
+        }
+    ]
+}
