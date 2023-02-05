@@ -7,13 +7,13 @@
             "label": "Create New Post",
             "type": "shell",
             "command": "hugo new --kind pc-post peace-corps/${input:postFolderName}",
-
+            "problemMatcher": []
         },
         {
             "label": "Test",
             "type": "shell",
             "command": "hugo serve -D",
-            "isBackground": true,
+            "isBackground": true
         }
     ],
     "inputs": [

@@ -7,8 +7,8 @@ load_dotenv(".env")
 
 BD_TOKEN = os.environ["BD_TOKEN"]
 # POST_PATH = os.environ["INPUT_POST_PATH"]
-# POST_PATH = input('What is the folder name?')
-POST_PATH = "2022-01-19"
+POST_PATH = input('What is the folder name?')
+# POST_PATH = "2022-01-19"
 
 def make_draft(post_path):
 
