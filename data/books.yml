@@ -1,3 +1,11 @@
+- id: oryx-and-crake
+  name: "Oryx and Crake"
+  logo: /assets/books/oryx-and-crake.jpg
+  website: https://www.oryxandcrake.co.uk/
+  author: Margaret Atwood
+  twitter: MargaretAtwood
+  description: The first in a trilogy, this is a strange (in a good way) start to an interesting dystopian world. A seemingly ordinary guy surrounded by much more interesting characters somehow evades a genetic catastrophe. Atwood takes us back and forth between his current life of him being worshipped by the next evolutionary species and the turns his life took to get to that point. Part action, part dystopia, and part love, this story has it all.
+
 - id: dark-matter
   name: "Dark Matter"
   logo: /assets/books/dark-matter.png
@@ -96,13 +104,13 @@
   twitter: haroldpollack
   description: The easiest way to handle personal finances. Are you going to become rich by reading this book? No. But you will learn easy ways to increase your financial security in both the short and the long term.
 
-- id: blink
-  name: Blink
-  logo: /assets/books/blink.webp
-  website: https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/
-  author: Malcolm Gladwell
-  twitter: Gladwell
-  description:
+# - id: blink
+#   name: Blink
+#   logo: /assets/books/blink.webp
+#   website: https://www.gladwellbooks.com/titles/malcolm-gladwell/blink/9780316172325/
+#   author: Malcolm Gladwell
+#   twitter: Gladwell
+#   description:
 
 - id: monster-calls
   name: A Monster Calls
