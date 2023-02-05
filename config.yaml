@@ -7,8 +7,8 @@ enableRobotsTXT: true
 # disable taxonomy pages
 taxonomies: []
 
-permalinks:
-  posts: /:year/:month/:title/
+# permalinks:
+#   posts: /:year/:month/:title/
 
 markup:
   goldmark:

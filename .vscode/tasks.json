@@ -13,7 +13,8 @@
             "label": "Test",
             "type": "shell",
             "command": "hugo serve -D",
-            "isBackground": true
+            "isBackground": true,
+            "problemMatcher": []
         }
     ],
     "inputs": [
