@@ -32,6 +32,33 @@
   list-style-type: decimal;
 }
 
+#post-content blockquote {
+  background: black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+#post-content blockquote:before {
+  color: #ccc;
+  content: '';
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+}
+
+#post-content blockquote p {
+  display: inline;
+}
+
+#post-content hr {
+  width: 30%;
+  border-style: dotted none none;
+  border-width: 10px;
+  margin: 3rem auto;
+  opacity: 50%;
+}
+
 #nav-menu.active {
     display: block;
   }
