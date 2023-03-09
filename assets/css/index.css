@@ -46,6 +46,33 @@
   list-style-type: decimal;
 }
 
+#post-content blockquote {
+  background: black;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+#post-content blockquote:before {
+  color: #ccc;
+  content: '';
+  font-size: 1em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+}
+
+#post-content blockquote p {
+  display: inline;
+}
+
+#post-content hr {
+  width: 30%;
+  border-style: dotted none none;
+  border-width: 10px;
+  margin: 3rem auto;
+  opacity: 50%;
+}
+
 #nav-menu.active {
   display: block;
 }
@@ -744,6 +771,11 @@ video {
   margin-right: 2.5rem;
 }
 
+.mx-11 {
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -772,16 +804,6 @@ video {
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-
-.mx-9 {
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
-}
-
-.mx-11 {
-  margin-left: 2.75rem;
-  margin-right: 2.75rem;
 }
 
 .mt-16 {
@@ -1223,14 +1245,14 @@ video {
   line-height: 1;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-xl {
@@ -1253,20 +1275,16 @@ video {
   line-height: 1;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .font-thin {
   font-weight: 100;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .italic {
@@ -1341,11 +1359,6 @@ video {
 .hover\:text-neutral-400:hover {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .hover\:text-blue-600:hover {
